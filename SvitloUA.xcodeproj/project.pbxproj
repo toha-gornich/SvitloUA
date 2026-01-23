@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		625B74082F23F36100129962 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 625B74072F23F36100129962 /* WidgetKit.framework */; };
+		625B740A2F23F36100129962 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 625B74092F23F36100129962 /* SwiftUI.framework */; };
+		625B74192F23F36300129962 /* SvitloWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 625B74052F23F36100129962 /* SvitloWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		625B73E52F23F26300129962 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 625B73C72F23F26100129962 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 625B73CE2F23F26100129962;
+			remoteInfo = SvitloUA;
+		};
+		625B73EF2F23F26300129962 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 625B73C72F23F26100129962 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 625B73CE2F23F26100129962;
+			remoteInfo = SvitloUA;
+		};
+		625B74172F23F36300129962 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 625B73C72F23F26100129962 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 625B74042F23F36100129962;
+			remoteInfo = SvitloWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		625B741E2F23F36300129962 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				625B74192F23F36300129962 /* SvitloWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		625B73CF2F23F26100129962 /* SvitloUA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SvitloUA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		625B73E42F23F26300129962 /* SvitloUATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SvitloUATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		625B73EE2F23F26300129962 /* SvitloUAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SvitloUAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		625B74052F23F36100129962 /* SvitloWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SvitloWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		625B74072F23F36100129962 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		625B74092F23F36100129962 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		625B74202F23F3BB00129962 /* SvitloWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SvitloWidgetExtension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		625B741A2F23F36300129962 /* Exceptions for "SvitloWidget" folder in "SvitloWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 625B74042F23F36100129962 /* SvitloWidgetExtension */;
+		};
+		625B744F2F23FA0D00129962 /* Exceptions for "SvitloUA" folder in "SvitloWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Models/PowerStatus.swift,
+				Models/UserSettings.swift,
+				Models/YasnoComponent.swift,
+				Services/YasnoAPIService.swift,
+			);
+			target = 625B74042F23F36100129962 /* SvitloWidgetExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		625B73D12F23F26100129962 /* SvitloUA */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				625B744F2F23FA0D00129962 /* Exceptions for "SvitloUA" folder in "SvitloWidgetExtension" target */,
+			);
+			path = SvitloUA;
+			sourceTree = "<group>";
+		};
+		625B73E72F23F26300129962 /* SvitloUATests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SvitloUATests;
+			sourceTree = "<group>";
+		};
+		625B73F12F23F26300129962 /* SvitloUAUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SvitloUAUITests;
+			sourceTree = "<group>";
+		};
+		625B740B2F23F36100129962 /* SvitloWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				625B741A2F23F36300129962 /* Exceptions for "SvitloWidget" folder in "SvitloWidgetExtension" target */,
+			);
+			path = SvitloWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		625B73CC2F23F26100129962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		625B73E12F23F26300129962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		625B73EB2F23F26300129962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		625B74022F23F36100129962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				625B740A2F23F36100129962 /* SwiftUI.framework in Frameworks */,
+				625B74082F23F36100129962 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		625B73C62F23F26100129962 = {
+			isa = PBXGroup;
+			children = (
+				625B74202F23F3BB00129962 /* SvitloWidgetExtension.entitlements */,
+				625B73D12F23F26100129962 /* SvitloUA */,
+				625B73E72F23F26300129962 /* SvitloUATests */,
+				625B73F12F23F26300129962 /* SvitloUAUITests */,
+				625B740B2F23F36100129962 /* SvitloWidget */,
+				625B74062F23F36100129962 /* Frameworks */,
+				625B73D02F23F26100129962 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		625B73D02F23F26100129962 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				625B73CF2F23F26100129962 /* SvitloUA.app */,
+				625B73E42F23F26300129962 /* SvitloUATests.xctest */,
+				625B73EE2F23F26300129962 /* SvitloUAUITests.xctest */,
+				625B74052F23F36100129962 /* SvitloWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		625B74062F23F36100129962 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				625B74072F23F36100129962 /* WidgetKit.framework */,
+				625B74092F23F36100129962 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		625B73CE2F23F26100129962 /* SvitloUA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 625B73F82F23F26300129962 /* Build configuration list for PBXNativeTarget "SvitloUA" */;
+			buildPhases = (
+				625B73CB2F23F26100129962 /* Sources */,
+				625B73CC2F23F26100129962 /* Frameworks */,
+				625B73CD2F23F26100129962 /* Resources */,
+				625B741E2F23F36300129962 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				625B74182F23F36300129962 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				625B73D12F23F26100129962 /* SvitloUA */,
+			);
+			name = SvitloUA;
+			packageProductDependencies = (
+			);
+			productName = SvitloUA;
+			productReference = 625B73CF2F23F26100129962 /* SvitloUA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		625B73E32F23F26300129962 /* SvitloUATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 625B73FB2F23F26300129962 /* Build configuration list for PBXNativeTarget "SvitloUATests" */;
+			buildPhases = (
+				625B73E02F23F26300129962 /* Sources */,
+				625B73E12F23F26300129962 /* Frameworks */,
+				625B73E22F23F26300129962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				625B73E62F23F26300129962 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				625B73E72F23F26300129962 /* SvitloUATests */,
+			);
+			name = SvitloUATests;
+			packageProductDependencies = (
+			);
+			productName = SvitloUATests;
+			productReference = 625B73E42F23F26300129962 /* SvitloUATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		625B73ED2F23F26300129962 /* SvitloUAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 625B73FE2F23F26300129962 /* Build configuration list for PBXNativeTarget "SvitloUAUITests" */;
+			buildPhases = (
+				625B73EA2F23F26300129962 /* Sources */,
+				625B73EB2F23F26300129962 /* Frameworks */,
+				625B73EC2F23F26300129962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				625B73F02F23F26300129962 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				625B73F12F23F26300129962 /* SvitloUAUITests */,
+			);
+			name = SvitloUAUITests;
+			packageProductDependencies = (
+			);
+			productName = SvitloUAUITests;
+			productReference = 625B73EE2F23F26300129962 /* SvitloUAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		625B74042F23F36100129962 /* SvitloWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 625B741B2F23F36300129962 /* Build configuration list for PBXNativeTarget "SvitloWidgetExtension" */;
+			buildPhases = (
+				625B74012F23F36100129962 /* Sources */,
+				625B74022F23F36100129962 /* Frameworks */,
+				625B74032F23F36100129962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				625B740B2F23F36100129962 /* SvitloWidget */,
+			);
+			name = SvitloWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = SvitloWidgetExtension;
+			productReference = 625B74052F23F36100129962 /* SvitloWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		625B73C72F23F26100129962 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					625B73CE2F23F26100129962 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					625B73E32F23F26300129962 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 625B73CE2F23F26100129962;
+					};
+					625B73ED2F23F26300129962 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 625B73CE2F23F26100129962;
+					};
+					625B74042F23F36100129962 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 625B73CA2F23F26100129962 /* Build configuration list for PBXProject "SvitloUA" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 625B73C62F23F26100129962;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 625B73D02F23F26100129962 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				625B73CE2F23F26100129962 /* SvitloUA */,
+				625B73E32F23F26300129962 /* SvitloUATests */,
+				625B73ED2F23F26300129962 /* SvitloUAUITests */,
+				625B74042F23F36100129962 /* SvitloWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		625B73CD2F23F26100129962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		625B73E22F23F26300129962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		625B73EC2F23F26300129962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		625B74032F23F36100129962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		625B73CB2F23F26100129962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		625B73E02F23F26300129962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		625B73EA2F23F26300129962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		625B74012F23F36100129962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		625B73E62F23F26300129962 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 625B73CE2F23F26100129962 /* SvitloUA */;
+			targetProxy = 625B73E52F23F26300129962 /* PBXContainerItemProxy */;
+		};
+		625B73F02F23F26300129962 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 625B73CE2F23F26100129962 /* SvitloUA */;
+			targetProxy = 625B73EF2F23F26300129962 /* PBXContainerItemProxy */;
+		};
+		625B74182F23F36300129962 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 625B74042F23F36100129962 /* SvitloWidgetExtension */;
+			targetProxy = 625B74172F23F36300129962 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		625B73F62F23F26300129962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		625B73F72F23F26300129962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		625B73F92F23F26300129962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SvitloUA/SvitloUA.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SvitloUA/Preview Content\"";
+				DEVELOPMENT_TEAM = 7D2WXD5WMW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cl.SvitloUA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		625B73FA2F23F26300129962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SvitloUA/SvitloUA.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SvitloUA/Preview Content\"";
+				DEVELOPMENT_TEAM = 7D2WXD5WMW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cl.SvitloUA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		625B73FC2F23F26300129962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7D2WXD5WMW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cl.SvitloUATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SvitloUA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SvitloUA";
+			};
+			name = Debug;
+		};
+		625B73FD2F23F26300129962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7D2WXD5WMW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cl.SvitloUATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SvitloUA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SvitloUA";
+			};
+			name = Release;
+		};
+		625B73FF2F23F26300129962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7D2WXD5WMW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cl.SvitloUAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SvitloUA;
+			};
+			name = Debug;
+		};
+		625B74002F23F26300129962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7D2WXD5WMW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cl.SvitloUAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SvitloUA;
+			};
+			name = Release;
+		};
+		625B741C2F23F36300129962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = SvitloWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7D2WXD5WMW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SvitloWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SvitloWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cl.SvitloUA.SvitloWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		625B741D2F23F36300129962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = SvitloWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7D2WXD5WMW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SvitloWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SvitloWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cl.SvitloUA.SvitloWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		625B73CA2F23F26100129962 /* Build configuration list for PBXProject "SvitloUA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				625B73F62F23F26300129962 /* Debug */,
+				625B73F72F23F26300129962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		625B73F82F23F26300129962 /* Build configuration list for PBXNativeTarget "SvitloUA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				625B73F92F23F26300129962 /* Debug */,
+				625B73FA2F23F26300129962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		625B73FB2F23F26300129962 /* Build configuration list for PBXNativeTarget "SvitloUATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				625B73FC2F23F26300129962 /* Debug */,
+				625B73FD2F23F26300129962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		625B73FE2F23F26300129962 /* Build configuration list for PBXNativeTarget "SvitloUAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				625B73FF2F23F26300129962 /* Debug */,
+				625B74002F23F26300129962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		625B741B2F23F36300129962 /* Build configuration list for PBXNativeTarget "SvitloWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				625B741C2F23F36300129962 /* Debug */,
+				625B741D2F23F36300129962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 625B73C72F23F26100129962 /* Project object */;
+}

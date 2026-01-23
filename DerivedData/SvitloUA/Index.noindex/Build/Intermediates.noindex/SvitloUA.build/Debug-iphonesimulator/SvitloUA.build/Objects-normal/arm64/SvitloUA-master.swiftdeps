@@ -1,0 +1,26 @@
+version: "Apple Swift version 6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)"
+options: "8b3b90dc5eddd758d96009379406c8c029ad568c6611509ac0a437c5fb4f7696"
+build_start_time: [1769195234, 13589000]
+build_end_time: [1769195236, 271954000]
+inputs:
+  ? "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Index.noindex/Build/Intermediates.noindex/SvitloUA.build/Debug-iphonesimulator/SvitloUA.build/DerivedSources/GeneratedAssetSymbols.swift"
+  : [1769195233, 814248454]
+  "/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloUA/ChartCard.swift": [1769193450, 424119126]
+  "/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloUA/ChartDataPoint.swift": [1769193455, 985182291]
+  "/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloUA/ContentView.swift": [1769194163, 624839007]
+  "/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloUA/CurrentStatusCard.swift": [1769193425, 789377880]
+  "/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloUA/EventRow.swift": [1769193464, 468285967]
+  "/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloUA/Models/PowerEvent.swift": [1769193393, 471388231]
+  "/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloUA/Models/PowerStatus.swift": [1769193398, 858132975]
+  "/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloUA/Models/UserSettings.swift": [1769193404, 135824578]
+  "/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloUA/Models/YasnoComponent.swift": [1769194823, 178145138]
+  "/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloUA/PowerDataManager.swift": [1769193415, 854770854]
+  "/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloUA/RecentEventsCard.swift": [1769193460, 701271275]
+  "/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloUA/ScheduleCard.swift": [1769193430, 272826436]
+  "/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloUA/ScheduleView.swift": [1769193422, 188293542]
+  "/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloUA/Services/YasnoAPIService.swift": [1769193411, 1103864]
+  "/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloUA/SettingsView.swift": [1769193467, 980789298]
+  "/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloUA/StatCard.swift": [1769193445, 290659713]
+  "/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloUA/StatisticsView.swift": [1769193439, 313788488]
+  "/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloUA/SvitloUAApp.swift": [1769192698, 215137568]
+  "/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloUA/TimeSlotRow.swift": [1769193434, 540043414]
