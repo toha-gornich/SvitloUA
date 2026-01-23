@@ -1,0 +1,12 @@
+{
+  "" : {
+    "dependencies" : "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Index.noindex/Build/Intermediates.noindex/SvitloUA.build/Debug-iphonesimulator/SvitloUATests.build/Objects-normal/arm64/SvitloUATests-master.d",
+    "diagnostics" : "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Index.noindex/Build/Intermediates.noindex/SvitloUA.build/Debug-iphonesimulator/SvitloUATests.build/Objects-normal/arm64/SvitloUATests-master.dia",
+    "emit-module-dependencies" : "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Index.noindex/Build/Intermediates.noindex/SvitloUA.build/Debug-iphonesimulator/SvitloUATests.build/Objects-normal/arm64/SvitloUATests-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Index.noindex/Build/Intermediates.noindex/SvitloUA.build/Debug-iphonesimulator/SvitloUATests.build/Objects-normal/arm64/SvitloUATests-master-emit-module.dia",
+    "swift-dependencies" : "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Index.noindex/Build/Intermediates.noindex/SvitloUA.build/Debug-iphonesimulator/SvitloUATests.build/Objects-normal/arm64/SvitloUATests-master.swiftdeps"
+  },
+  "/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloUATests/SvitloUATests.swift" : {
+
+  }
+}

@@ -1,0 +1,17 @@
+Target dependency graph (10 targets)
+Target 'SvitloUAUITests' in project 'SvitloUA' (no dependencies)
+Target 'SvitloUAUITests' in project 'SvitloUA'
+➜ Explicit dependency on target 'SvitloUA' in project 'SvitloUA'
+Target 'SvitloUAUITests' in project 'SvitloUA'
+➜ Explicit dependency on target 'SvitloUA' in project 'SvitloUA'
+Target 'SvitloUATests' in project 'SvitloUA' (no dependencies)
+Target 'SvitloUATests' in project 'SvitloUA'
+➜ Explicit dependency on target 'SvitloUA' in project 'SvitloUA'
+Target 'SvitloUATests' in project 'SvitloUA'
+➜ Explicit dependency on target 'SvitloUA' in project 'SvitloUA'
+Target 'SvitloUA' in project 'SvitloUA'
+➜ Explicit dependency on target 'SvitloWidgetExtension' in project 'SvitloUA'
+Target 'SvitloWidgetExtension' in project 'SvitloUA' (no dependencies)
+Target 'SvitloUA' in project 'SvitloUA'
+➜ Explicit dependency on target 'SvitloWidgetExtension' in project 'SvitloUA'
+Target 'SvitloWidgetExtension' in project 'SvitloUA' (no dependencies)
