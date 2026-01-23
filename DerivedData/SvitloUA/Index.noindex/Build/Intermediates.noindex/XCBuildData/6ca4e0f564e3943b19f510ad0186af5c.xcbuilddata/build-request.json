@@ -19,12 +19,14 @@
     "activeArchitecture" : "arm64",
     "activeRunDestination" : {
       "disableOnlyActiveArch" : false,
-      "platform" : "iphonesimulator",
-      "sdk" : "iphonesimulator18.2",
-      "sdkVariant" : "iphonesimulator",
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos18.2",
+      "sdkVariant" : "iphoneos",
       "supportedArchitectures" : [
+        "arm64e",
+        "arm64v8",
         "arm64",
-        "x86_64"
+        "armv8"
       ],
       "targetArchitecture" : "arm64"
     },

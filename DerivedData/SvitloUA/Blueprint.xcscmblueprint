@@ -1,30 +1,30 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7DFFDD49FA5D41DE4A86A27A168EFE91AAB964B4",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "688B60C96F035675371242E13ACD608102835B64",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "7DFFDD49FA5D41DE4A86A27A168EFE91AAB964B4" : 0,
-    "690EB5DCD7F49F71881BFB560A554F5C1B733980" : 0
+    "690EB5DCD7F49F71881BFB560A554F5C1B733980" : 0,
+    "688B60C96F035675371242E13ACD608102835B64" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5D5FFE95-91B3-445E-9A86-365DF3EFECF9",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "7DFFDD49FA5D41DE4A86A27A168EFE91AAB964B4" : "SvitloUA\/",
-    "690EB5DCD7F49F71881BFB560A554F5C1B733980" : ""
+    "690EB5DCD7F49F71881BFB560A554F5C1B733980" : "",
+    "688B60C96F035675371242E13ACD608102835B64" : "SvitloUA\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "SvitloUA",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SvitloUA.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/toha-gornich\/SvitloUA.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "688B60C96F035675371242E13ACD608102835B64"
+    },
+    {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/toha-gornich\/CombineFrameworkExample.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "690EB5DCD7F49F71881BFB560A554F5C1B733980"
-    },
-    {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/toha-gornich\/SvitloUA.git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7DFFDD49FA5D41DE4A86A27A168EFE91AAB964B4"
     }
   ]
 }
