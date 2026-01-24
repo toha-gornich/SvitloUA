@@ -7,25 +7,10 @@
 
 
 
-import Foundation
 import SwiftUI
-import Charts
-import WidgetKit
-
-// MARK: - API Models
-
-
-// MARK: - Local Storage Models
-
-
-// MARK: - API Service
-
-
-// MARK: - Data Manager
 
 
 
-// MARK: - Content View
 struct ContentView: View {
     @EnvironmentObject var dataManager: PowerDataManager
     @State private var selectedTab = 0
@@ -52,35 +37,3 @@ struct ContentView: View {
         }
     }
 }
-
-// MARK: - Schedule View
-
-
-// MARK: - Current Status Card
-
-
-// MARK: - Schedule Card
-
-
-// MARK: - Time Slot Row
-
-
-// MARK: - Statistics View
-
-
-// MARK: - Stat Card
-
-
-// MARK: - Chart Card
-
-
-
-
-// MARK: - Recent Events Card
-
-
-// MARK: - Event Row
-
-
-// MARK: - Settings View
-

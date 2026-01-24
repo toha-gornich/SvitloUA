@@ -1,0 +1,32 @@
+{
+  "source": "/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloUA/ChartCard.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Відключення за тиждень",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 34
+        }
+      },
+      {
+        "comment": "",
+        "key": "День",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 40
+        }
+      },
+      {
+        "comment": "",
+        "key": "Кількість",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 41
+        }
+      }
+    ]
+  },
+  "version": 1
+}

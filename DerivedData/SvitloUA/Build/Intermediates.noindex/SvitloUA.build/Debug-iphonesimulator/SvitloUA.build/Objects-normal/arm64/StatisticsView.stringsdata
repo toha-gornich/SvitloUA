@@ -1,0 +1,16 @@
+{
+  "source": "/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloUA/Views/StatisticsView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Статистика",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 36
+        }
+      }
+    ]
+  },
+  "version": 1
+}

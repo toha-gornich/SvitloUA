@@ -1,0 +1,32 @@
+{
+  "source": "/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloUA/Views/ScheduleView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Графік відключень",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 30
+        }
+      },
+      {
+        "comment": "",
+        "key": "Графік не знайдено",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 63
+        }
+      },
+      {
+        "comment": "",
+        "key": "Спробуйте оновити дані або перевірте налаштування регіону та групи",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 66
+        }
+      }
+    ]
+  },
+  "version": 1
+}

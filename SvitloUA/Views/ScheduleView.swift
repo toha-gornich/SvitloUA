@@ -5,11 +5,7 @@
 //  Created by Горніч Антон on 23.01.2026.
 //
 
-
-import Foundation
 import SwiftUI
-import Charts
-import WidgetKit
 
 struct ScheduleView: View {
     @EnvironmentObject var dataManager: PowerDataManager
@@ -21,11 +17,13 @@ struct ScheduleView: View {
                     // Current Status Card
                     CurrentStatusCard()
                     
-                    // Today's Schedule
-                    ScheduleCard(title: "Сьогодні", slots: dataManager.todaySchedule)
+                    // Schedule for the day
+                    ScheduleCard(title: "Графік на сьогодні", slots: dataManager.schedule)
                     
-                    // Tomorrow's Schedule
-                    ScheduleCard(title: "Завтра", slots: dataManager.tomorrowSchedule)
+                    // Optional: Show statistics or info card instead of tomorrow
+                    if dataManager.schedule.isEmpty && !dataManager.isLoading {
+                        EmptyScheduleCard()
+                    }
                 }
                 .padding()
             }
@@ -37,7 +35,12 @@ struct ScheduleView: View {
                             await dataManager.refreshSchedule()
                         }
                     }) {
-                        Image(systemName: "arrow.clockwise")
+                        if dataManager.isLoading {
+                            ProgressView()
+                                .progressViewStyle(CircularProgressViewStyle())
+                        } else {
+                            Image(systemName: "arrow.clockwise")
+                        }
                     }
                     .disabled(dataManager.isLoading)
                 }
@@ -46,5 +49,30 @@ struct ScheduleView: View {
                 await dataManager.refreshSchedule()
             }
         }
+    }
+}
+
+// MARK: - Empty Schedule Card
+struct EmptyScheduleCard: View {
+    var body: some View {
+        VStack(spacing: 12) {
+            Image(systemName: "calendar.badge.exclamationmark")
+                .font(.system(size: 40))
+                .foregroundColor(.secondary)
+            
+            Text("Графік не знайдено")
+                .font(.headline)
+            
+            Text("Спробуйте оновити дані або перевірте налаштування регіону та групи")
+                .font(.subheadline)
+                .foregroundColor(.secondary)
+                .multilineTextAlignment(.center)
+                .padding(.horizontal)
+        }
+        .padding()
+        .frame(maxWidth: .infinity)
+        .background(Color(.systemBackground))
+        .cornerRadius(12)
+        .shadow(radius: 2)
     }
 }

@@ -4,12 +4,7 @@
 //
 //  Created by Горніч Антон on 23.01.2026.
 //
-
-
 import Foundation
-import SwiftUI
-import Charts
-import WidgetKit
 
 struct YasnoScheduleResponse: Codable {
     let components: [YasnoComponent]
@@ -17,24 +12,46 @@ struct YasnoScheduleResponse: Codable {
 
 struct YasnoComponent: Codable {
     let templateName: String
-    let availableRegions: [String]
-    let dailySchedule: [String: DailyScheduleData]
+    let availableRegions: [String]?
+    let schedule: ScheduleData?
     
     enum CodingKeys: String, CodingKey {
         case templateName = "template_name"
         case availableRegions = "available_regions"
-        case dailySchedule
+        case schedule
     }
 }
 
-struct DailyScheduleData: Codable {
-    let today: ScheduleDay
-    let tomorrow: ScheduleDay
+struct ScheduleData: Codable {
+    let regions: [String: RegionSchedule]
+    
+    init(from decoder: Decoder) throws {
+        let container = try decoder.singleValueContainer()
+        self.regions = try container.decode([String: RegionSchedule].self)
+    }
+    
+    func encode(to encoder: Encoder) throws {
+        var container = encoder.singleValueContainer()
+        try container.encode(regions)
+    }
+    
+    subscript(region: String) -> RegionSchedule? {
+        return regions[region]
+    }
 }
 
-struct ScheduleDay: Codable {
-    let title: String
-    let groups: [String: [TimeSlot]]
+struct RegionSchedule: Codable {
+    let groups: [String: [[TimeSlot]]]  // Масив масивів - кожен день тижня
+    
+    init(from decoder: Decoder) throws {
+        let container = try decoder.singleValueContainer()
+        self.groups = try container.decode([String: [[TimeSlot]]].self)
+    }
+    
+    func encode(to encoder: Encoder) throws {
+        var container = encoder.singleValueContainer()
+        try container.encode(groups)
+    }
 }
 
 struct TimeSlot: Codable, Identifiable {
@@ -45,6 +62,13 @@ struct TimeSlot: Codable, Identifiable {
     
     enum CodingKeys: String, CodingKey {
         case start, end, type
+    }
+    
+    // Ініціалізатор для створення вручну (для previews та тестів)
+    init(start: Double, end: Double, type: String) {
+        self.start = start
+        self.end = end
+        self.type = type
     }
     
     var startTime: String {

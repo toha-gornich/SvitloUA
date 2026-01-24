@@ -1,0 +1,18 @@
+"/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloUA/ContentView.swift":
+  swift-dependencies: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphonesimulator/SvitloUA.build/Objects-normal/arm64/ContentView.swiftdeps"
+  const-values: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphonesimulator/SvitloUA.build/Objects-normal/arm64/ContentView.swiftconstvalues"
+  object: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphonesimulator/SvitloUA.build/Objects-normal/arm64/ContentView.o"
+  diagnostics: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphonesimulator/SvitloUA.build/Objects-normal/arm64/ContentView.dia"
+  dependencies: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphonesimulator/SvitloUA.build/Objects-normal/arm64/ContentView.d"
+"/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloUA/ChartDataPoint.swift":
+  const-values: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphonesimulator/SvitloUA.build/Objects-normal/arm64/ChartDataPoint.swiftconstvalues"
+  diagnostics: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphonesimulator/SvitloUA.build/Objects-normal/arm64/ChartDataPoint.dia"
+  dependencies: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphonesimulator/SvitloUA.build/Objects-normal/arm64/ChartDataPoint.d"
+  swift-dependencies: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphonesimulator/SvitloUA.build/Objects-normal/arm64/ChartDataPoint.swiftdeps"
+  object: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphonesimulator/SvitloUA.build/Objects-normal/arm64/ChartDataPoint.o"
+"/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloUA/CurrentStatusCard.swift":
+  swift-dependencies: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphonesimulator/SvitloUA.build/Objects-normal/arm64/CurrentStatusCard.swiftdeps"
+  dependencies: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphonesimulator/SvitloUA.build/Objects-normal/arm64/CurrentStatusCard.d"
+  diagnostics: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphonesimulator/SvitloUA.build/Objects-normal/arm64/CurrentStatusCard.dia"
+  const-values: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphonesimulator/SvitloUA.build/Objects-normal/arm64/CurrentStatusCard.swiftconstvalues"
+  object: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphonesimulator/SvitloUA.build/Objects-normal/arm64/CurrentStatusCard.o"

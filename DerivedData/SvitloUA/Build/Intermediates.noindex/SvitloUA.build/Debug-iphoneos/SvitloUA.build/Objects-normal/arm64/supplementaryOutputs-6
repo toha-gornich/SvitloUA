@@ -1,0 +1,18 @@
+"/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloUA/RecentEventsCard.swift":
+  object: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphoneos/SvitloUA.build/Objects-normal/arm64/RecentEventsCard.o"
+  diagnostics: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphoneos/SvitloUA.build/Objects-normal/arm64/RecentEventsCard.dia"
+  dependencies: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphoneos/SvitloUA.build/Objects-normal/arm64/RecentEventsCard.d"
+  const-values: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphoneos/SvitloUA.build/Objects-normal/arm64/RecentEventsCard.swiftconstvalues"
+  swift-dependencies: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphoneos/SvitloUA.build/Objects-normal/arm64/RecentEventsCard.swiftdeps"
+"/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloUA/EventRow.swift":
+  swift-dependencies: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphoneos/SvitloUA.build/Objects-normal/arm64/EventRow.swiftdeps"
+  object: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphoneos/SvitloUA.build/Objects-normal/arm64/EventRow.o"
+  dependencies: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphoneos/SvitloUA.build/Objects-normal/arm64/EventRow.d"
+  const-values: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphoneos/SvitloUA.build/Objects-normal/arm64/EventRow.swiftconstvalues"
+  diagnostics: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphoneos/SvitloUA.build/Objects-normal/arm64/EventRow.dia"
+"/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloUA/PowerDataManager.swift":
+  diagnostics: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphoneos/SvitloUA.build/Objects-normal/arm64/PowerDataManager.dia"
+  object: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphoneos/SvitloUA.build/Objects-normal/arm64/PowerDataManager.o"
+  swift-dependencies: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphoneos/SvitloUA.build/Objects-normal/arm64/PowerDataManager.swiftdeps"
+  dependencies: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphoneos/SvitloUA.build/Objects-normal/arm64/PowerDataManager.d"
+  const-values: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphoneos/SvitloUA.build/Objects-normal/arm64/PowerDataManager.swiftconstvalues"

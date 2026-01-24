@@ -4,10 +4,12 @@
 <array>
 	<string>XCTest</string>
 	<string>SwiftUI</string>
+	<string>os</string>
 	<string>Charts</string>
-	<string>SvitloUA</string>
 	<string>WidgetKit</string>
 	<string>Testing</string>
+	<string>SvitloUA</string>
+	<string>Combine</string>
 	<string>Foundation</string>
 </array>
 </plist>

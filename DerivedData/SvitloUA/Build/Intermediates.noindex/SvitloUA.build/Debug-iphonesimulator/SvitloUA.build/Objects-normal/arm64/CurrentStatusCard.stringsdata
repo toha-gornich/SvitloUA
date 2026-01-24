@@ -1,0 +1,24 @@
+{
+  "source": "/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloUA/CurrentStatusCard.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Група %@",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 26
+        }
+      },
+      {
+        "comment": "",
+        "key": "Наступне відключення:",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 38
+        }
+      }
+    ]
+  },
+  "version": 1
+}

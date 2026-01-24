@@ -1,0 +1,18 @@
+"/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloUA/Models/PowerStatus.swift":
+  swift-dependencies: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphonesimulator/SvitloUA.build/Objects-normal/arm64/PowerStatus.swiftdeps"
+  diagnostics: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphonesimulator/SvitloUA.build/Objects-normal/arm64/PowerStatus.dia"
+  dependencies: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphonesimulator/SvitloUA.build/Objects-normal/arm64/PowerStatus.d"
+  const-values: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphonesimulator/SvitloUA.build/Objects-normal/arm64/PowerStatus.swiftconstvalues"
+  object: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphonesimulator/SvitloUA.build/Objects-normal/arm64/PowerStatus.o"
+"/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloUA/Models/UserSettings.swift":
+  diagnostics: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphonesimulator/SvitloUA.build/Objects-normal/arm64/UserSettings.dia"
+  const-values: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphonesimulator/SvitloUA.build/Objects-normal/arm64/UserSettings.swiftconstvalues"
+  swift-dependencies: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphonesimulator/SvitloUA.build/Objects-normal/arm64/UserSettings.swiftdeps"
+  dependencies: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphonesimulator/SvitloUA.build/Objects-normal/arm64/UserSettings.d"
+  object: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphonesimulator/SvitloUA.build/Objects-normal/arm64/UserSettings.o"
+"/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloUA/Models/PowerEvent.swift":
+  dependencies: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphonesimulator/SvitloUA.build/Objects-normal/arm64/PowerEvent.d"
+  swift-dependencies: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphonesimulator/SvitloUA.build/Objects-normal/arm64/PowerEvent.swiftdeps"
+  diagnostics: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphonesimulator/SvitloUA.build/Objects-normal/arm64/PowerEvent.dia"
+  object: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphonesimulator/SvitloUA.build/Objects-normal/arm64/PowerEvent.o"
+  const-values: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphonesimulator/SvitloUA.build/Objects-normal/arm64/PowerEvent.swiftconstvalues"

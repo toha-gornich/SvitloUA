@@ -4,20 +4,15 @@
 //
 //  Created by Горніч Антон on 23.01.2026.
 //
-
-
 import Foundation
-import SwiftUI
-import Charts
-import WidgetKit
+import Combine
 
 class PowerDataManager: ObservableObject {
     static let shared = PowerDataManager()
     
     @Published var settings: UserSettings
     @Published var events: [PowerEvent] = []
-    @Published var todaySchedule: [TimeSlot] = []
-    @Published var tomorrowSchedule: [TimeSlot] = []
+    @Published var schedule: [TimeSlot] = []
     @Published var isLoading = false
     @Published var currentStatus: PowerStatus = .unknown
     
@@ -51,6 +46,10 @@ class PowerDataManager: ObservableObject {
     func saveSettings() {
         if let data = try? JSONEncoder().encode(settings) {
             UserDefaults.standard.set(data, forKey: settingsKey)
+            
+            if let groupDefaults = UserDefaults(suiteName: "group.ua.svitlo.app") {
+                groupDefaults.set(data, forKey: settingsKey)
+            }
         }
     }
     
@@ -74,14 +73,13 @@ class PowerDataManager: ObservableObject {
         }
         
         do {
-            let (today, tomorrow) = try await YasnoAPIService.shared.getScheduleForRegionAndGroup(
+            let slots = try await YasnoAPIService.shared.getScheduleForRegionAndGroup(
                 region: settings.region,
                 group: settings.group
             )
             
             await MainActor.run {
-                self.todaySchedule = today
-                self.tomorrowSchedule = tomorrow
+                self.schedule = slots
                 self.updateCurrentStatus()
                 self.isLoading = false
             }
@@ -100,11 +98,27 @@ class PowerDataManager: ObservableObject {
         let minute = calendar.component(.minute, from: now)
         let currentTime = Double(hour) + Double(minute) / 60.0
         
-        if let slot = todaySchedule.first(where: { $0.start <= currentTime && currentTime < $0.end }) {
+        if let slot = schedule.first(where: { $0.start <= currentTime && currentTime < $0.end }) {
             currentStatus = slot.isOutage ? .off : .on
         } else {
             currentStatus = .on
         }
+    }
+    
+    // Helper method for filtering slots for today
+    var todaySchedule: [TimeSlot] {
+        let now = Date()
+        let calendar = Calendar.current
+        let hour = calendar.component(.hour, from: now)
+        let minute = calendar.component(.minute, from: now)
+        let currentTime = Double(hour) + Double(minute) / 60.0
+        
+        return schedule.filter { $0.end > currentTime }
+    }
+    
+    // If you need a full schedule for the day
+    var fullSchedule: [TimeSlot] {
+        return schedule
     }
     
     func getStatistics() -> (today: Int, week: Int, month: Int) {

@@ -6,10 +6,7 @@
 //
 
 
-import Foundation
 import SwiftUI
-import Charts
-import WidgetKit
 
 struct CurrentStatusCard: View {
     @EnvironmentObject var dataManager: PowerDataManager
@@ -78,10 +75,9 @@ struct CurrentStatusCard: View {
         let minute = calendar.component(.minute, from: now)
         let currentTime = Double(hour) + Double(minute) / 60.0
         
-        if let slot = dataManager.todaySchedule.first(where: { $0.start > currentTime && $0.isOutage }) {
+        // Шукаємо наступне відключення в розкладі
+        if let slot = dataManager.schedule.first(where: { $0.start > currentTime && $0.isOutage }) {
             return "Сьогодні о \(slot.startTime)"
-        } else if let slot = dataManager.tomorrowSchedule.first(where: { $0.isOutage }) {
-            return "Завтра о \(slot.startTime)"
         }
         
         return nil

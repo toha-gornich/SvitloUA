@@ -1,0 +1,16 @@
+{
+  "source": "/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloUA/ScheduleCard.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Немає даних",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 25
+        }
+      }
+    ]
+  },
+  "version": 1
+}

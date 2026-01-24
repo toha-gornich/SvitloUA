@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'SvitloUA' in project 'SvitloUA'
+➜ Explicit dependency on target 'SvitloWidgetExtension' in project 'SvitloUA'
+Target 'SvitloWidgetExtension' in project 'SvitloUA' (no dependencies)

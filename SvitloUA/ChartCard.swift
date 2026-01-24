@@ -6,10 +6,9 @@
 //
 
 
-import Foundation
-import SwiftUI
 import Charts
-import WidgetKit
+import SwiftUI
+
 
 struct ChartCard: View {
     @EnvironmentObject var dataManager: PowerDataManager

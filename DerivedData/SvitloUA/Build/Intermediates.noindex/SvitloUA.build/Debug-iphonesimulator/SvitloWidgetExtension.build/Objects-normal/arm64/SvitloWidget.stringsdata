@@ -1,0 +1,104 @@
+{
+  "source": "/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloWidget/SvitloWidget.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Наступне: %@",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 197
+        }
+      },
+      {
+        "comment": "",
+        "key": "Група %@",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 251
+        }
+      },
+      {
+        "comment": "",
+        "key": "Наступне відключення",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 259
+        }
+      },
+      {
+        "comment": "",
+        "key": "Сьогодні",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 274
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@-%@",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 286
+        }
+      },
+      {
+        "comment": "",
+        "key": "Група %@",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 340
+        }
+      },
+      {
+        "comment": "",
+        "key": "Наступне",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 349
+        }
+      },
+      {
+        "comment": "",
+        "key": "Графік на сьогодні",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 363
+        }
+      },
+      {
+        "comment": "",
+        "key": "Дані недоступні",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 368
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@ - %@",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 379
+        }
+      },
+      {
+        "comment": "",
+        "key": "Світло UA",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 427
+        }
+      },
+      {
+        "comment": "",
+        "key": "Показує поточний статус та графік відключень",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 428
+        }
+      }
+    ]
+  },
+  "version": 1
+}

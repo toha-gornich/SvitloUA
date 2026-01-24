@@ -1,0 +1,18 @@
+"/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloUA/Models/YasnoComponent.swift":
+  diagnostics: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphoneos/SvitloUA.build/Objects-normal/arm64/YasnoComponent.dia"
+  const-values: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphoneos/SvitloUA.build/Objects-normal/arm64/YasnoComponent.swiftconstvalues"
+  object: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphoneos/SvitloUA.build/Objects-normal/arm64/YasnoComponent.o"
+  dependencies: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphoneos/SvitloUA.build/Objects-normal/arm64/YasnoComponent.d"
+  swift-dependencies: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphoneos/SvitloUA.build/Objects-normal/arm64/YasnoComponent.swiftdeps"
+"/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloUA/Services/YasnoAPIService.swift":
+  object: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphoneos/SvitloUA.build/Objects-normal/arm64/YasnoAPIService.o"
+  diagnostics: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphoneos/SvitloUA.build/Objects-normal/arm64/YasnoAPIService.dia"
+  const-values: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphoneos/SvitloUA.build/Objects-normal/arm64/YasnoAPIService.swiftconstvalues"
+  swift-dependencies: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphoneos/SvitloUA.build/Objects-normal/arm64/YasnoAPIService.swiftdeps"
+  dependencies: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphoneos/SvitloUA.build/Objects-normal/arm64/YasnoAPIService.d"
+"/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloUA/ChartCard.swift":
+  dependencies: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphoneos/SvitloUA.build/Objects-normal/arm64/ChartCard.d"
+  swift-dependencies: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphoneos/SvitloUA.build/Objects-normal/arm64/ChartCard.swiftdeps"
+  const-values: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphoneos/SvitloUA.build/Objects-normal/arm64/ChartCard.swiftconstvalues"
+  diagnostics: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphoneos/SvitloUA.build/Objects-normal/arm64/ChartCard.dia"
+  object: "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Build/Intermediates.noindex/SvitloUA.build/Debug-iphoneos/SvitloUA.build/Objects-normal/arm64/ChartCard.o"

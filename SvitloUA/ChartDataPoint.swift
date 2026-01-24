@@ -7,9 +7,6 @@
 
 
 import Foundation
-import SwiftUI
-import Charts
-import WidgetKit
 
 struct ChartDataPoint: Identifiable {
     let id = UUID()

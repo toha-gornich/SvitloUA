@@ -6,14 +6,14 @@
 	<integer>11</integer>
 	<key>logs</key>
 	<dict>
-		<key>216A10C5-D964-4140-843F-634493C731CF</key>
+		<key>28870914-CBB9-4DA4-884B-9AB91B383611</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>9E5FB990-AD75-4B57-89F3-96FF2C985169</string>
+			<string>58EBBC5D-BEE2-4525-8B64-E23260840DA7</string>
 			<key>auxiliaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>W</string>
+				<string>S</string>
 				<key>totalNumberOfAnalyzerIssues</key>
 				<integer>0</integer>
 				<key>totalNumberOfErrors</key>
@@ -21,7 +21,7 @@
 				<key>totalNumberOfTestFailures</key>
 				<integer>0</integer>
 				<key>totalNumberOfWarnings</key>
-				<integer>4</integer>
+				<integer>0</integer>
 			</dict>
 			<key>className</key>
 			<string>IDESchemeActionsInvocationRecord</string>
@@ -30,7 +30,7 @@
 			<key>domainType</key>
 			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
 			<key>fileName</key>
-			<string>Run-SvitloUA-2026.01.23_21-00-46-+0200.xcresult</string>
+			<string>Run-SvitloWidgetExtension-2026.01.24_11-57-16-+0200.xcresult</string>
 			<key>hasAuxiliaryLog</key>
 			<true/>
 			<key>hasConsoleLog</key>
@@ -40,7 +40,7 @@
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>W</string>
+				<string>S</string>
 				<key>totalNumberOfAnalyzerIssues</key>
 				<integer>0</integer>
 				<key>totalNumberOfErrors</key>
@@ -48,24 +48,24 @@
 				<key>totalNumberOfTestFailures</key>
 				<integer>0</integer>
 				<key>totalNumberOfWarnings</key>
-				<integer>4</integer>
+				<integer>0</integer>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>SvitloUA project</string>
 			<key>schemeIdentifier-schemeName</key>
-			<string>SvitloUA</string>
+			<string>SvitloWidgetExtension</string>
 			<key>schemeIdentifier-sharedScheme</key>
 			<integer>1</integer>
 			<key>signature</key>
-			<string>Run SvitloUA</string>
+			<string>Run SvitloWidgetExtension</string>
 			<key>timeStartedRecording</key>
-			<real>790887646.93272698</real>
+			<real>790941436.28301799</real>
 			<key>timeStoppedRecording</key>
 			<real>0.0</real>
 			<key>title</key>
-			<string>Run SvitloUA</string>
+			<string>Run SvitloWidgetExtension</string>
 			<key>uniqueIdentifier</key>
-			<string>216A10C5-D964-4140-843F-634493C731CF</string>
+			<string>28870914-CBB9-4DA4-884B-9AB91B383611</string>
 		</dict>
 	</dict>
 </dict>

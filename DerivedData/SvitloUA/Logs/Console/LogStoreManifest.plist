@@ -5,6 +5,43 @@
 	<key>logFormatVersion</key>
 	<integer>11</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>6B402CEB-4443-40D7-814B-08418A291438</key>
+		<dict>
+			<key>className</key>
+			<string>IDEConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.StructuredConsoleContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>6B402CEB-4443-40D7-814B-08418A291438.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>signature</key>
+			<string>Console com.cl.SvitloUA.SvitloWidget</string>
+			<key>timeStartedRecording</key>
+			<real>790941437.07555997</real>
+			<key>timeStoppedRecording</key>
+			<real>790941481.70237899</real>
+			<key>title</key>
+			<string>Console com.cl.SvitloUA.SvitloWidget</string>
+			<key>uniqueIdentifier</key>
+			<string>6B402CEB-4443-40D7-814B-08418A291438</string>
+		</dict>
+	</dict>
 </dict>
 </plist>

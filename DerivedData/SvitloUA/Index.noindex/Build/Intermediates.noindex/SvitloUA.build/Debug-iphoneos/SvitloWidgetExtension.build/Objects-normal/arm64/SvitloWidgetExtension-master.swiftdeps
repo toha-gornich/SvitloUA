@@ -1,12 +1,12 @@
 version: "Apple Swift version 6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)"
 options: "851a91b058820c406449c07c5f7d3331d27e9c8de8904b95af693b9abcf0bc8e"
-build_start_time: [1769196613, 976707000]
-build_end_time: [1769196614, 431047000]
+build_start_time: [1769243052, 613024000]
+build_end_time: [1769243053, 637370000]
 inputs:
   ? "/Users/call_the_ha/Desktop/Development/SvitloUA/DerivedData/SvitloUA/Index.noindex/Build/Intermediates.noindex/SvitloUA.build/Debug-iphoneos/SvitloWidgetExtension.build/DerivedSources/GeneratedAssetSymbols.swift"
   : [1769196464, 648152537]
   "/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloUA/Models/PowerStatus.swift": [1769193398, 858132975]
   "/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloUA/Models/UserSettings.swift": [1769193404, 135824578]
   "/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloUA/Models/YasnoComponent.swift": [1769194823, 178145138]
-  "/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloUA/Services/YasnoAPIService.swift": [1769193411, 1103864]
+  "/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloUA/Services/YasnoAPIService.swift": [1769243051, 250391873]
   "/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloWidget/SvitloWidget.swift": [1769193118, 3753315]

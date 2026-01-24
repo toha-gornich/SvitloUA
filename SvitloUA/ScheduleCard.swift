@@ -6,10 +6,7 @@
 //
 
 
-import Foundation
 import SwiftUI
-import Charts
-import WidgetKit
 
 struct ScheduleCard: View {
     let title: String

@@ -5,11 +5,8 @@
 //  Created by Горніч Антон on 23.01.2026.
 //
 
-
-import Foundation
 import SwiftUI
-import Charts
-import WidgetKit
+
 
 struct StatCard: View {
     let title: String
