@@ -71,10 +71,16 @@
 		625B744F2F23FA0D00129962 /* Exceptions for "SvitloUA" folder in "SvitloWidgetExtension" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				Common/Network/Configuration/APIConfiguration.swift,
+				Common/Network/Configuration/AppEnvironment.swift,
+				Common/Network/Core/NetworkManager.swift,
+				"Common/Network/Core/NetworkManager+Yasno.swift.swift",
+				Common/Network/Endpoints/YasnoEndpoints.swift,
+				Common/Network/Protocols/NetworkServiceProtocols.swift,
 				Models/PowerStatus.swift,
 				Models/UserSettings.swift,
 				Models/YasnoComponent.swift,
-				Services/YasnoAPIService.swift,
+				"UICommon/Extensions/Extensions+URL.swift",
 			);
 			target = 625B74042F23F36100129962 /* SvitloWidgetExtension */;
 		};
@@ -147,12 +153,12 @@
 			isa = PBXGroup;
 			children = (
 				625B74202F23F3BB00129962 /* SvitloWidgetExtension.entitlements */,
-				625B73D12F23F26100129962 /* SvitloUA */,
 				625B73E72F23F26300129962 /* SvitloUATests */,
 				625B73F12F23F26300129962 /* SvitloUAUITests */,
 				625B740B2F23F36100129962 /* SvitloWidget */,
 				625B74062F23F36100129962 /* Frameworks */,
 				625B73D02F23F26100129962 /* Products */,
+				625B73D12F23F26100129962 /* SvitloUA */,
 			);
 			sourceTree = "<group>";
 		};

@@ -6,6 +6,48 @@
 	<integer>11</integer>
 	<key>logs</key>
 	<dict>
+		<key>02BA5CBA-84DE-4E8A-9B9E-3A977453B29C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>02BA5CBA-84DE-4E8A-9B9E-3A977453B29C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>1</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SvitloUA project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SvitloUA</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SvitloUA</string>
+			<key>timeStartedRecording</key>
+			<real>790969195.53166699</real>
+			<key>timeStoppedRecording</key>
+			<real>790969197.35581899</real>
+			<key>title</key>
+			<string>Build SvitloUA</string>
+			<key>uniqueIdentifier</key>
+			<string>02BA5CBA-84DE-4E8A-9B9E-3A977453B29C</string>
+		</dict>
 		<key>1935B6DB-2A61-480F-9943-B15ED568B633</key>
 		<dict>
 			<key>className</key>
@@ -47,6 +89,342 @@
 			<string>Build (Automatic) SvitloWidgetExtension</string>
 			<key>uniqueIdentifier</key>
 			<string>1935B6DB-2A61-480F-9943-B15ED568B633</string>
+		</dict>
+		<key>19C05136-AD4A-469F-AF64-B4005509D8B8</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>19C05136-AD4A-469F-AF64-B4005509D8B8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>3</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SvitloUA project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SvitloUA</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SvitloUA</string>
+			<key>timeStartedRecording</key>
+			<real>790969157.37371302</real>
+			<key>timeStoppedRecording</key>
+			<real>790969158.13361597</real>
+			<key>title</key>
+			<string>Build SvitloUA</string>
+			<key>uniqueIdentifier</key>
+			<string>19C05136-AD4A-469F-AF64-B4005509D8B8</string>
+		</dict>
+		<key>1CCE18B7-CCC6-420B-B99C-761F698BFD0C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1CCE18B7-CCC6-420B-B99C-761F698BFD0C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>4</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SvitloUA project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SvitloUA</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SvitloUA</string>
+			<key>timeStartedRecording</key>
+			<real>790966007.52372003</real>
+			<key>timeStoppedRecording</key>
+			<real>790966008.42161298</real>
+			<key>title</key>
+			<string>Build SvitloUA</string>
+			<key>uniqueIdentifier</key>
+			<string>1CCE18B7-CCC6-420B-B99C-761F698BFD0C</string>
+		</dict>
+		<key>1E3339A9-E787-422A-8296-8F930447A8B2</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1E3339A9-E787-422A-8296-8F930447A8B2.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>2</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SvitloUA project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SvitloUA</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SvitloUA</string>
+			<key>timeStartedRecording</key>
+			<real>790968319.09261703</real>
+			<key>timeStoppedRecording</key>
+			<real>790968319.54631495</real>
+			<key>title</key>
+			<string>Build SvitloUA</string>
+			<key>uniqueIdentifier</key>
+			<string>1E3339A9-E787-422A-8296-8F930447A8B2</string>
+		</dict>
+		<key>2416E07E-9E35-4319-946E-552F1B7B9599</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>2416E07E-9E35-4319-946E-552F1B7B9599.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>1</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SvitloUA project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SvitloUA</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SvitloUA</string>
+			<key>timeStartedRecording</key>
+			<real>790969217.75966203</real>
+			<key>timeStoppedRecording</key>
+			<real>790969218.83820403</real>
+			<key>title</key>
+			<string>Build SvitloUA</string>
+			<key>uniqueIdentifier</key>
+			<string>2416E07E-9E35-4319-946E-552F1B7B9599</string>
+		</dict>
+		<key>2DBAB7CC-A95D-45AC-B08F-A613639F282A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>2DBAB7CC-A95D-45AC-B08F-A613639F282A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SvitloUA project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SvitloUA</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SvitloUA</string>
+			<key>timeStartedRecording</key>
+			<real>790966012.44689596</real>
+			<key>timeStoppedRecording</key>
+			<real>790966015.09166598</real>
+			<key>title</key>
+			<string>Build SvitloUA</string>
+			<key>uniqueIdentifier</key>
+			<string>2DBAB7CC-A95D-45AC-B08F-A613639F282A</string>
+		</dict>
+		<key>2E77F514-D89A-4F84-A142-F3442A75C672</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>2E77F514-D89A-4F84-A142-F3442A75C672.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>2</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SvitloUA project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SvitloUA</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SvitloUA</string>
+			<key>timeStartedRecording</key>
+			<real>790968833.89088798</real>
+			<key>timeStoppedRecording</key>
+			<real>790968834.98151195</real>
+			<key>title</key>
+			<string>Build SvitloUA</string>
+			<key>uniqueIdentifier</key>
+			<string>2E77F514-D89A-4F84-A142-F3442A75C672</string>
+		</dict>
+		<key>37127E99-4D44-47F2-B4F1-C400B611E501</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>37127E99-4D44-47F2-B4F1-C400B611E501.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>3</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SvitloUA project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SvitloUA</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SvitloUA</string>
+			<key>timeStartedRecording</key>
+			<real>790968254.55043805</real>
+			<key>timeStoppedRecording</key>
+			<real>790968255.25766206</real>
+			<key>title</key>
+			<string>Build SvitloUA</string>
+			<key>uniqueIdentifier</key>
+			<string>37127E99-4D44-47F2-B4F1-C400B611E501</string>
+		</dict>
+		<key>3C976F30-7AF0-4D4B-B68F-36281A3ECD55</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3C976F30-7AF0-4D4B-B68F-36281A3ECD55.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>2</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SvitloUA project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SvitloUA</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SvitloUA</string>
+			<key>timeStartedRecording</key>
+			<real>790968331.77665603</real>
+			<key>timeStoppedRecording</key>
+			<real>790968332.275424</real>
+			<key>title</key>
+			<string>Build SvitloUA</string>
+			<key>uniqueIdentifier</key>
+			<string>3C976F30-7AF0-4D4B-B68F-36281A3ECD55</string>
 		</dict>
 		<key>4126EDF4-7EE8-4654-AEEF-11B7D7EE8A94</key>
 		<dict>
@@ -90,6 +468,132 @@
 			<key>uniqueIdentifier</key>
 			<string>4126EDF4-7EE8-4654-AEEF-11B7D7EE8A94</string>
 		</dict>
+		<key>470F5874-EDCF-4076-8C66-683DB5E1D996</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>470F5874-EDCF-4076-8C66-683DB5E1D996.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>2</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SvitloUA project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SvitloUA</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SvitloUA</string>
+			<key>timeStartedRecording</key>
+			<real>790968310.25131905</real>
+			<key>timeStoppedRecording</key>
+			<real>790968310.86796904</real>
+			<key>title</key>
+			<string>Build SvitloUA</string>
+			<key>uniqueIdentifier</key>
+			<string>470F5874-EDCF-4076-8C66-683DB5E1D996</string>
+		</dict>
+		<key>490814C9-8711-4AB4-BC71-94434E308175</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>490814C9-8711-4AB4-BC71-94434E308175.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SvitloUA project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SvitloUA</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SvitloUA</string>
+			<key>timeStartedRecording</key>
+			<real>790968196.40595496</real>
+			<key>timeStoppedRecording</key>
+			<real>790968196.60249496</real>
+			<key>title</key>
+			<string>Build SvitloUA</string>
+			<key>uniqueIdentifier</key>
+			<string>490814C9-8711-4AB4-BC71-94434E308175</string>
+		</dict>
+		<key>4C867E98-8EE8-4926-8FBD-7B9C1D3140AB</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4C867E98-8EE8-4926-8FBD-7B9C1D3140AB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SvitloUA project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SvitloUA</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SvitloUA</string>
+			<key>timeStartedRecording</key>
+			<real>790969374.27770197</real>
+			<key>timeStoppedRecording</key>
+			<real>790969377.45891798</real>
+			<key>title</key>
+			<string>Build SvitloUA</string>
+			<key>uniqueIdentifier</key>
+			<string>4C867E98-8EE8-4926-8FBD-7B9C1D3140AB</string>
+		</dict>
 		<key>58EBBC5D-BEE2-4525-8B64-E23260840DA7</key>
 		<dict>
 			<key>className</key>
@@ -132,6 +636,174 @@
 			<key>uniqueIdentifier</key>
 			<string>58EBBC5D-BEE2-4525-8B64-E23260840DA7</string>
 		</dict>
+		<key>5C3CFD36-0126-4B49-8901-E64D373A6EC1</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5C3CFD36-0126-4B49-8901-E64D373A6EC1.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SvitloUA project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SvitloUA</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build (Automatic) SvitloUA</string>
+			<key>timeStartedRecording</key>
+			<real>790966127.85399997</real>
+			<key>timeStoppedRecording</key>
+			<real>790966130.37507606</real>
+			<key>title</key>
+			<string>Build (Automatic) SvitloUA</string>
+			<key>uniqueIdentifier</key>
+			<string>5C3CFD36-0126-4B49-8901-E64D373A6EC1</string>
+		</dict>
+		<key>8ECB14D7-321A-44EA-B25B-9DF51E3D9791</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8ECB14D7-321A-44EA-B25B-9DF51E3D9791.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SvitloUA project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SvitloUA</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SvitloUA</string>
+			<key>timeStartedRecording</key>
+			<real>790968196.199543</real>
+			<key>timeStoppedRecording</key>
+			<real>790968196.40278494</real>
+			<key>title</key>
+			<string>Build SvitloUA</string>
+			<key>uniqueIdentifier</key>
+			<string>8ECB14D7-321A-44EA-B25B-9DF51E3D9791</string>
+		</dict>
+		<key>9AC5F327-8D2B-4BDC-A52F-406EEACBAB38</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9AC5F327-8D2B-4BDC-A52F-406EEACBAB38.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>1</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SvitloUA project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SvitloUA</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SvitloUA</string>
+			<key>timeStartedRecording</key>
+			<real>790968372.99957705</real>
+			<key>timeStoppedRecording</key>
+			<real>790968373.46251297</real>
+			<key>title</key>
+			<string>Build SvitloUA</string>
+			<key>uniqueIdentifier</key>
+			<string>9AC5F327-8D2B-4BDC-A52F-406EEACBAB38</string>
+		</dict>
+		<key>9CEDA24A-2F5C-4585-97B0-22547E261F49</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9CEDA24A-2F5C-4585-97B0-22547E261F49.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SvitloUA project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SvitloUA</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SvitloUA</string>
+			<key>timeStartedRecording</key>
+			<real>790969381.925758</real>
+			<key>timeStoppedRecording</key>
+			<real>790969383.82876301</real>
+			<key>title</key>
+			<string>Build SvitloUA</string>
+			<key>uniqueIdentifier</key>
+			<string>9CEDA24A-2F5C-4585-97B0-22547E261F49</string>
+		</dict>
 		<key>B3C466C5-CC10-4E77-BB9F-CB61A39EC383</key>
 		<dict>
 			<key>className</key>
@@ -173,6 +845,342 @@
 			<string>Build SvitloWidgetExtension</string>
 			<key>uniqueIdentifier</key>
 			<string>B3C466C5-CC10-4E77-BB9F-CB61A39EC383</string>
+		</dict>
+		<key>CFD885A2-47A0-415A-B531-80E953AA2B59</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>CFD885A2-47A0-415A-B531-80E953AA2B59.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>2</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SvitloUA project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SvitloUA</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SvitloUA</string>
+			<key>timeStartedRecording</key>
+			<real>790968365.72493303</real>
+			<key>timeStoppedRecording</key>
+			<real>790968366.70756495</real>
+			<key>title</key>
+			<string>Build SvitloUA</string>
+			<key>uniqueIdentifier</key>
+			<string>CFD885A2-47A0-415A-B531-80E953AA2B59</string>
+		</dict>
+		<key>D65DF8C8-6BDC-49C7-A15D-8943ED0A8EF6</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D65DF8C8-6BDC-49C7-A15D-8943ED0A8EF6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>2</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SvitloUA project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SvitloUA</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SvitloUA</string>
+			<key>timeStartedRecording</key>
+			<real>790968769.708269</real>
+			<key>timeStoppedRecording</key>
+			<real>790968770.655339</real>
+			<key>title</key>
+			<string>Build SvitloUA</string>
+			<key>uniqueIdentifier</key>
+			<string>D65DF8C8-6BDC-49C7-A15D-8943ED0A8EF6</string>
+		</dict>
+		<key>D9F5052F-F306-4C61-8AA8-3B974639C4C7</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D9F5052F-F306-4C61-8AA8-3B974639C4C7.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>1</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SvitloUA project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SvitloUA</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SvitloUA</string>
+			<key>timeStartedRecording</key>
+			<real>790968196.60603297</real>
+			<key>timeStoppedRecording</key>
+			<real>790968197.02983797</real>
+			<key>title</key>
+			<string>Build SvitloUA</string>
+			<key>uniqueIdentifier</key>
+			<string>D9F5052F-F306-4C61-8AA8-3B974639C4C7</string>
+		</dict>
+		<key>E21E2825-01DD-42E1-A8DD-0809A3AF4286</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E21E2825-01DD-42E1-A8DD-0809A3AF4286.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>2</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SvitloUA project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SvitloUA</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SvitloUA</string>
+			<key>timeStartedRecording</key>
+			<real>790968269.21997797</real>
+			<key>timeStoppedRecording</key>
+			<real>790968269.93350005</real>
+			<key>title</key>
+			<string>Build SvitloUA</string>
+			<key>uniqueIdentifier</key>
+			<string>E21E2825-01DD-42E1-A8DD-0809A3AF4286</string>
+		</dict>
+		<key>E5377DCC-9651-4B7A-9B6B-1F9F13E5C1B0</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E5377DCC-9651-4B7A-9B6B-1F9F13E5C1B0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>2</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SvitloUA project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SvitloUA</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SvitloUA</string>
+			<key>timeStartedRecording</key>
+			<real>790968844.96233702</real>
+			<key>timeStoppedRecording</key>
+			<real>790968846.33265197</real>
+			<key>title</key>
+			<string>Build SvitloUA</string>
+			<key>uniqueIdentifier</key>
+			<string>E5377DCC-9651-4B7A-9B6B-1F9F13E5C1B0</string>
+		</dict>
+		<key>E6519C54-167D-4C7A-9227-59A18A7C4D2D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E6519C54-167D-4C7A-9227-59A18A7C4D2D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>2</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SvitloUA project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SvitloUA</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SvitloUA</string>
+			<key>timeStartedRecording</key>
+			<real>790968809.76279199</real>
+			<key>timeStoppedRecording</key>
+			<real>790968810.21388304</real>
+			<key>title</key>
+			<string>Build SvitloUA</string>
+			<key>uniqueIdentifier</key>
+			<string>E6519C54-167D-4C7A-9227-59A18A7C4D2D</string>
+		</dict>
+		<key>F0A1F2CB-088A-4E81-B621-06DB0E0E9345</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F0A1F2CB-088A-4E81-B621-06DB0E0E9345.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>2</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SvitloUA project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SvitloUA</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SvitloUA</string>
+			<key>timeStartedRecording</key>
+			<real>790968804.130288</real>
+			<key>timeStoppedRecording</key>
+			<real>790968805.04762101</real>
+			<key>title</key>
+			<string>Build SvitloUA</string>
+			<key>uniqueIdentifier</key>
+			<string>F0A1F2CB-088A-4E81-B621-06DB0E0E9345</string>
+		</dict>
+		<key>FEC3CB7A-48CE-4378-9E2E-1EF1BDDB4264</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FEC3CB7A-48CE-4378-9E2E-1EF1BDDB4264.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>1</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SvitloUA project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SvitloUA</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SvitloUA</string>
+			<key>timeStartedRecording</key>
+			<real>790968193.73295999</real>
+			<key>timeStoppedRecording</key>
+			<real>790968194.89315903</real>
+			<key>title</key>
+			<string>Build SvitloUA</string>
+			<key>uniqueIdentifier</key>
+			<string>FEC3CB7A-48CE-4378-9E2E-1EF1BDDB4264</string>
 		</dict>
 	</dict>
 </dict>

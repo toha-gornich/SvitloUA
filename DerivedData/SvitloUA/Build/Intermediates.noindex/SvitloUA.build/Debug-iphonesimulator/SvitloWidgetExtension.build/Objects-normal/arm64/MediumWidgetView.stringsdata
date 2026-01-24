@@ -1,0 +1,40 @@
+{
+  "source": "/Users/call_the_ha/Desktop/Development/SvitloUA/SvitloWidget/MediumWidgetView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Група %@",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 31
+        }
+      },
+      {
+        "comment": "",
+        "key": "Наступне відключення",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 39
+        }
+      },
+      {
+        "comment": "",
+        "key": "Сьогодні",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 54
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@-%@",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 66
+        }
+      }
+    ]
+  },
+  "version": 1
+}

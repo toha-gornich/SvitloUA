@@ -18,15 +18,15 @@
 		</data>
 		<key>PlugIns/SvitloWidgetExtension.appex/SvitloWidgetExtension</key>
 		<data>
-		cyw1niGcZoqB6SPZ8cTKLVZa3Og=
+		dpLgpm+1sN+YSQuZRxevhomvevA=
 		</data>
 		<key>PlugIns/SvitloWidgetExtension.appex/SvitloWidgetExtension.debug.dylib</key>
 		<data>
-		1TiTXAdWLSUGgIruG7KnZ6u+VvU=
+		txrC4Nty0Aidw46tG5DNcNKiuMI=
 		</data>
 		<key>PlugIns/SvitloWidgetExtension.appex/_CodeSignature/CodeResources</key>
 		<data>
-		YONAeWpmsOndXPae8H3ggQSwk3U=
+		4FXueKMZO7sgoW8pE+x3Fd2sB0k=
 		</data>
 		<key>PlugIns/SvitloWidgetExtension.appex/__preview.dylib</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>SvitloUA.debug.dylib</key>
 		<data>
-		eJcThrWYPNAwMjqpqSx90iFlEkk=
+		bz56YiCFShBcsts6sFxQijJjS38=
 		</data>
 		<key>__preview.dylib</key>
 		<data>
@@ -54,21 +54,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			d13maOUvuL3SWniqhuJPlfxVI1em/tGpY2HPTXI2TcY=
+			MFY+KK6vzmz3yzXh9UHQF8abxBlo0JLX0hKeDlBrvkw=
 			</data>
 		</dict>
 		<key>PlugIns/SvitloWidgetExtension.appex/SvitloWidgetExtension.debug.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ztf8Ntb5lubHD8GV6+PmeDxZd5T+KJviRIHFU7R0Sdc=
+			chZBqeq24chXi+cIzNWalFJ8thLL1or06tE2MGPkgUk=
 			</data>
 		</dict>
 		<key>PlugIns/SvitloWidgetExtension.appex/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YppHsGmMI/qn09bVSdFfJqBhocEyOTi6iklkG2nT5v4=
+			RR+X5TLGueaKXL7mspFdDuZIwR+ljEpfBf3MZrI7XjI=
 			</data>
 		</dict>
 		<key>PlugIns/SvitloWidgetExtension.appex/__preview.dylib</key>
@@ -82,7 +82,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RqbCUkXhnvphOuJC6XVRUoSvqNcm7mgjNwKnt/7uy6A=
+			iA73R/TzQQUCQHlihj0OSv84qg/f8i2ghQgFG9gcWdk=
 			</data>
 		</dict>
 		<key>__preview.dylib</key>
