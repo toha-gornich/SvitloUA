@@ -7,7 +7,95 @@
         "key": "Статистика",
         "location": {
           "startingColumn": 30,
-          "startingLine": 36
+          "startingLine": 40
+        }
+      },
+      {
+        "comment": "",
+        "key": "Додати подію вручну",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 95
+        }
+      },
+      {
+        "comment": "",
+        "key": "Якщо було відключення поза графіком",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 99
+        }
+      },
+      {
+        "comment": "",
+        "key": "Видалити подію?",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 181
+        }
+      },
+      {
+        "comment": "",
+        "key": "Показано 15 з %lld",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 169
+        }
+      },
+      {
+        "comment": "",
+        "key": "Останні події",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 126
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld всього",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 132
+        }
+      },
+      {
+        "comment": "",
+        "key": "Немає записів",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 145
+        }
+      },
+      {
+        "comment": "",
+        "key": "Додайте подію вручну або зачекайте автоматичного відстеження",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 148
+        }
+      },
+      {
+        "comment": "",
+        "key": "Скасувати",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 182
+        }
+      },
+      {
+        "comment": "",
+        "key": "Видалити",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 183
+        }
+      },
+      {
+        "comment": "",
+        "key": "Цю дію неможливо скасувати",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 189
         }
       }
     ]

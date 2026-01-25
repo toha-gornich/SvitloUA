@@ -5,12 +5,11 @@
 //  Created by Горніч Антон on 23.01.2026.
 //
 
-
-import SwiftUI
 import SwiftUI
 
 struct SettingsView: View {
     @EnvironmentObject var dataManager: PowerDataManager
+    @State private var showingHelp = false
     
     let regions = [
         ("kiev", "Київ"),
@@ -46,6 +45,18 @@ struct SettingsView: View {
                             await dataManager.refreshSchedule()
                         }
                     }
+                    
+                    // Help Button
+                    Button(action: {
+                        showingHelp = true
+                    }) {
+                        HStack {
+                            Image(systemName: "questionmark.circle.fill")
+                                .foregroundColor(.blue)
+                            Text("Як дізнатись свою групу?")
+                                .foregroundColor(.blue)
+                        }
+                    }
                 }
                 
                 Section(header: Text("Сповіщення")) {
@@ -75,9 +86,23 @@ struct SettingsView: View {
                         Text("1.0.0")
                             .foregroundColor(.secondary)
                     }
+                    
+                    Button(action: {
+                        showingHelp = true
+                    }) {
+                        HStack {
+                            Image(systemName: "info.circle.fill")
+                                .foregroundColor(.blue)
+                            Text("Довідка")
+                                .foregroundColor(.blue)
+                        }
+                    }
                 }
             }
             .navigationTitle("Налаштування")
+            .sheet(isPresented: $showingHelp) {
+                HelpView()
+            }
         }
     }
 }

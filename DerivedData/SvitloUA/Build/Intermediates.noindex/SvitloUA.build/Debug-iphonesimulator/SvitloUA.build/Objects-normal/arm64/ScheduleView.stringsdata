@@ -7,7 +7,71 @@
         "key": "Графік відключень",
         "location": {
           "startingColumn": 30,
-          "startingLine": 30
+          "startingLine": 34
+        }
+      },
+      {
+        "comment": "",
+        "key": "Додати подію",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 78
+        }
+      },
+      {
+        "comment": "",
+        "key": "Вручну",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 83
+        }
+      },
+      {
+        "comment": "",
+        "key": "Зафіксувати подію?",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 132
+        }
+      },
+      {
+        "comment": "",
+        "key": "Світла немає",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 120
+        }
+      },
+      {
+        "comment": "",
+        "key": "Світло є",
+        "location": {
+          "startingColumn": 67,
+          "startingLine": 120
+        }
+      },
+      {
+        "comment": "",
+        "key": "Скасувати",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 133
+        }
+      },
+      {
+        "comment": "",
+        "key": "Так",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 134
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@ зараз (%@)",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 138
         }
       },
       {
@@ -15,7 +79,7 @@
         "key": "Графік не знайдено",
         "location": {
           "startingColumn": 18,
-          "startingLine": 63
+          "startingLine": 156
         }
       },
       {
@@ -23,7 +87,7 @@
         "key": "Спробуйте оновити дані або перевірте налаштування регіону та групи",
         "location": {
           "startingColumn": 18,
-          "startingLine": 66
+          "startingLine": 159
         }
       }
     ]

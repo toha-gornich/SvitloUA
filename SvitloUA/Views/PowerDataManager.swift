@@ -146,4 +146,28 @@ class PowerDataManager: ObservableObject {
         
         return (todayEvents.count, weekEvents.count, monthEvents.count)
     }
+    func addCustomEvent(timestamp: Date, status: PowerStatus, duration: TimeInterval = 0) {
+            // Create a custom PowerEvent using a struct directly
+            // Since we can't use the init with custom timestamp, we'll create it differently
+            
+            let event = CustomPowerEvent(
+                id: UUID(),
+                timestamp: timestamp,
+                status: status,
+                duration: duration
+            )
+            
+            // Convert to PowerEvent by encoding and decoding
+            if let encoded = try? JSONEncoder().encode(event),
+               let decoded = try? JSONDecoder().decode(PowerEvent.self, from: encoded) {
+                addEvent(decoded)
+            }
+        }
+}
+
+private struct CustomPowerEvent: Codable {
+    let id: UUID
+    let timestamp: Date
+    let status: PowerStatus
+    let duration: TimeInterval
 }
