@@ -1,1 +1,0 @@
-@rpath/SvitloUA.debug.dylib
