@@ -2,6 +2,18 @@
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
+## Build generated
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
 ## User settings
 xcuserdata/
 
@@ -37,7 +49,7 @@ playground.xcworkspace
 # you should judge for yourself, the pros and cons are mentioned at:
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
 #
-# Pods/
+Pods/
 #
 # Add this line if you want to avoid checking in source code from the Xcode workspace
 # *.xcworkspace
@@ -48,6 +60,10 @@ playground.xcworkspace
 # Carthage/Checkouts
 
 Carthage/Build/
+
+# Accio dependency management
+Dependencies/
+.accio/
 
 # fastlane
 #
@@ -60,3 +76,109 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+# Code Injection
+#
+# After new code Injection tools there's a generated folder /iOSInjectionProject
+# https://github.com/johnno1962/injectionforxcode
+
+iOSInjectionProject/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Swift Package Manager artifacts
+.swiftpm/
+*.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/
+
+# SPM Package.resolved should be checked in for apps, ignored for libraries
+# Package.resolved
+
+# Xcode Patch
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+
+# Firebase
+GoogleService-Info.plist
+google-services.json
+
+# Secrets and API Keys
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+Secrets.plist
+APIKeys.plist
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# AppCode
+.idea/
+
+# SwiftLint
+.swiftlint.yml.cache
+
+# R.swift
+*.generated.swift
+
+# Backup files
+*~.nib
+*.swp
+*.bak
+*.backup
+
+# Test artifacts
+*.gcda
+*.gcno
+coverage/
+test-results/
+
+# Tuist
+.tuist/
+Derived/
+
+# Instruments
+*.trace
+
+# Archives
+*.xcarchive
+
+# Provisioning
+*.mobileprovision
+*.provisionprofile
+
+# AppStore / Ad-Hoc builds
+*.app
+*.app.dSYM.zip
