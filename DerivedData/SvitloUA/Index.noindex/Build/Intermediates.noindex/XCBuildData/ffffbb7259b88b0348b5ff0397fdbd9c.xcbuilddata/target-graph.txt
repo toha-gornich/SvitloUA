@@ -1,0 +1,3 @@
+Target dependency graph (2 targets)
+Target 'SvitloWidgetExtension' in project 'SvitloUA' (no dependencies)
+Target 'SvitloWidgetExtension' in project 'SvitloUA' (no dependencies)

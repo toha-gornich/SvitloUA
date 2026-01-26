@@ -80,7 +80,12 @@
 				Models/PowerStatus.swift,
 				Models/UserSettings.swift,
 				Models/YasnoComponent.swift,
+				Screens/GroupHelpView.swift,
+				Screens/HelpSection.swift,
+				Screens/HelpStepCard.swift,
 				Screens/HelpView.swift,
+				Screens/InfoBox.swift,
+				Screens/StatisticsHelpView.swift,
 				"UICommon/Extensions/Extensions+URL.swift",
 			);
 			target = 625B74042F23F36100129962 /* SvitloWidgetExtension */;
