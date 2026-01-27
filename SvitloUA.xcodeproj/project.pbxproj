@@ -77,6 +77,8 @@
 				"Common/Network/Core/NetworkManager+Yasno.swift.swift",
 				Common/Network/Endpoints/YasnoEndpoints.swift,
 				Common/Network/Protocols/NetworkServiceProtocols.swift,
+				Models/CustomPowerEvent.swift,
+				Models/PowerEvent.swift,
 				Models/PowerStatus.swift,
 				Models/UserSettings.swift,
 				Models/YasnoComponent.swift,
@@ -87,6 +89,7 @@
 				Screens/InfoBox.swift,
 				Screens/StatisticsHelpView.swift,
 				"UICommon/Extensions/Extensions+URL.swift",
+				Views/PowerDataManager.swift,
 			);
 			target = 625B74042F23F36100129962 /* SvitloWidgetExtension */;
 		};

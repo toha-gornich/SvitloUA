@@ -171,3 +171,6 @@ private struct CustomPowerEvent: Codable {
     let status: PowerStatus
     let duration: TimeInterval
 }
+
+
+
