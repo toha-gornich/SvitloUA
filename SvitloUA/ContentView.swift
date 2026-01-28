@@ -10,7 +10,6 @@
 import SwiftUI
 
 
-
 struct ContentView: View {
     @EnvironmentObject var dataManager: PowerDataManager
     @State private var selectedTab = 0

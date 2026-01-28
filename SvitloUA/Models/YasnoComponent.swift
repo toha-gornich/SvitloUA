@@ -64,7 +64,7 @@ struct TimeSlot: Codable, Identifiable {
         case start, end, type
     }
     
-    // Ініціалізатор для створення вручну (для previews та тестів)
+    
     init(start: Double, end: Double, type: String) {
         self.start = start
         self.end = end

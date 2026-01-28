@@ -7,9 +7,6 @@
 
 
 import Foundation
-import SwiftUI
-import Charts
-import WidgetKit
 
 enum PowerStatus: String, Codable {
     case on = "Є світло"
