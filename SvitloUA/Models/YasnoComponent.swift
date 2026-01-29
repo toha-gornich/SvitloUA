@@ -41,7 +41,7 @@ struct ScheduleData: Codable {
 }
 
 struct RegionSchedule: Codable {
-    let groups: [String: [[TimeSlot]]]  // Масив масивів - кожен день тижня
+    let groups: [String: [[TimeSlot]]] 
     
     init(from decoder: Decoder) throws {
         let container = try decoder.singleValueContainer()

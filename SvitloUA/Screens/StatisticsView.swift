@@ -78,14 +78,6 @@ struct StatisticsView: View {
     }
 }
 
-// MARK: - Quick Add Event Card
-
-
-// MARK: - Recent Events with Actions
-
-
-// MARK: - Event Row with Actions
-
 
 #Preview {
     StatisticsView()

@@ -104,5 +104,6 @@ struct SettingsView: View {
                 HelpView()
             }
         }
+        .appBackground()
     }
 }

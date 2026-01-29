@@ -88,7 +88,9 @@
 				Screens/HelpView.swift,
 				Screens/InfoBox.swift,
 				Screens/StatisticsHelpView.swift,
+				"UICommon/Extensions/Extensions+Color.swift",
 				"UICommon/Extensions/Extensions+URL.swift",
+				"UICommon/Extensions/Extensions+View.swift",
 				Views/PowerDataManager.swift,
 			);
 			target = 625B74042F23F36100129962 /* SvitloWidgetExtension */;
