@@ -7,9 +7,6 @@
 
 
 import Foundation
-import SwiftUI
-import Charts
-import WidgetKit
 
 struct UserSettings: Codable {
     var region: String
