@@ -7,7 +7,11 @@
 
 
 import Foundation
-
-struct YasnoScheduleResponse: Codable {
-    let components: [YasnoComponent]
+struct YasnoAPIResponse: Codable {
+    let regions: [String: RegionData]
+    
+    init(from decoder: Decoder) throws {
+        let container = try decoder.singleValueContainer()
+        regions = try container.decode([String: RegionData].self)
+    }
 }

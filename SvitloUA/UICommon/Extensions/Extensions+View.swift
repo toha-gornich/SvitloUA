@@ -7,11 +7,12 @@
 
 import SwiftUI
 
-extension View{
-    func appBackground() -> some View{
-        ZStack{
-            Color.appBackground.ignoresSafeArea()
-            self
-        }
+extension View {
+    func appBackground() -> some View {
+        self
+            .background(
+                Color("BackgroundColor")
+                    .ignoresSafeArea()
+            )
     }
 }

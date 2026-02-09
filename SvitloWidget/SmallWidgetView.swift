@@ -14,56 +14,41 @@ struct SmallWidgetView: View {
     
     var body: some View {
         VStack(spacing: 8) {
-            HStack {
-                Image(systemName: statusIcon)
-                    .font(.title2)
-                    .foregroundColor(statusColor)
-                
-                Spacer()
-                
-                Text(entry.group)
-                    .font(.caption)
-                    .foregroundColor(.secondary)
-            }
+            // Status icon
+            Image(systemName: entry.currentStatus.icon)
+                .font(.system(size: 40))
+                .foregroundColor(entry.currentStatus.color)
             
-            Spacer()
+            // Status text
+            Text(entry.currentStatus.text)
+                .font(.headline)
+                .fontWeight(.bold)
+                .minimumScaleFactor(0.8)
             
-            VStack(alignment: .leading, spacing: 4) {
-                Text(entry.currentStatus.rawValue)
-                    .font(.headline)
-                    .fontWeight(.bold)
-                
-                if let nextOutage = entry.nextOutage {
-                    Text("Наступне: \(nextOutage)")
+            // Group info
+            Text("Група \(entry.group)")
+                .font(.caption2)
+                .foregroundColor(.secondary)
+            
+            
+            // Next outage or current slot
+            if let nextOutage = entry.nextOutage {
+                VStack(spacing: 2) {
+                    Text("Наступне відлючення")
                         .font(.caption2)
                         .foregroundColor(.secondary)
+                    Text(nextOutage)
+                        .font(.caption)
+                        .fontWeight(.semibold)
                 }
+            } else if let current = entry.currentSlot {
+                Text("Until \(current.endTime)")
+                    .font(.caption2)
+                    .foregroundColor(.secondary)
             }
-            .frame(maxWidth: .infinity, alignment: .leading)
         }
         .padding()
-        .background(
-            LinearGradient(
-                gradient: Gradient(colors: [statusColor.opacity(0.2), statusColor.opacity(0.05)]),
-                startPoint: .topLeading,
-                endPoint: .bottomTrailing
-            )
-        )
+        .appBackground()
     }
     
-    private var statusIcon: String {
-        switch entry.currentStatus {
-        case .on: return "bolt.fill"
-        case .off: return "bolt.slash.fill"
-        case .unknown: return "questionmark.circle.fill"
-        }
-    }
-    
-    private var statusColor: Color {
-        switch entry.currentStatus {
-        case .on: return .green
-        case .off: return .red
-        case .unknown: return .gray
-        }
-    }
 }

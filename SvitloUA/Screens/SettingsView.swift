@@ -13,7 +13,6 @@ struct SettingsView: View {
     
     let regions = [
         ("kiev", "Київ"),
-        ("dnipro", "Дніпро")
     ]
     
     let groups = ["1.1", "1.2", "2.1", "2.2", "3.1", "3.2", "4.1", "4.2", "5.1", "5.2", "6.1", "6.2"]
@@ -46,7 +45,6 @@ struct SettingsView: View {
                         }
                     }
                     
-                    // Help Button
                     Button(action: {
                         showingHelp = true
                     }) {
@@ -72,11 +70,6 @@ struct SettingsView: View {
                             await dataManager.refreshSchedule()
                         }
                     }
-                    
-                    Button("Очистити історію", role: .destructive) {
-                        dataManager.events = []
-                        dataManager.saveEvents()
-                    }
                 }
                 
                 Section(header: Text("Про додаток")) {
@@ -86,24 +79,14 @@ struct SettingsView: View {
                         Text("1.0.0")
                             .foregroundColor(.secondary)
                     }
-                    
-                    Button(action: {
-                        showingHelp = true
-                    }) {
-                        HStack {
-                            Image(systemName: "info.circle.fill")
-                                .foregroundColor(.blue)
-                            Text("Довідка")
-                                .foregroundColor(.blue)
-                        }
-                    }
                 }
             }
+            .scrollContentBackground(.hidden)
+            .background(Color("BackgroundColor"))
             .navigationTitle("Налаштування")
             .sheet(isPresented: $showingHelp) {
                 HelpView()
             }
         }
-        .appBackground()
     }
 }

@@ -6,12 +6,9 @@
 //
 
 import Foundation
-import UIKit
 
 
 protocol YasnoServiceProtocol {
-    func fetchSchedule() async throws -> YasnoScheduleResponse
+    func fetchSchedule(region: String, group: String) async throws -> GroupSchedule
     func getScheduleForRegionAndGroup(region: String, group: String) async throws -> [TimeSlot]
-    
-    
 }

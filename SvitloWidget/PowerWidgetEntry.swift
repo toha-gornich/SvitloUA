@@ -9,11 +9,11 @@
 import WidgetKit
 import SwiftUI
 
-struct PowerWidgetEntry: TimelineEntry {
-    let date: Date
-    let currentStatus: PowerStatus
-    let nextOutage: String?
-    let region: String
-    let group: String
-    let todaySlots: [TimeSlot]
-}
+//struct PowerWidgetEntry: TimelineEntry {
+//    let date: Date
+//    let currentStatus: PowerStatus
+//    let nextOutage: String?
+//    let region: String
+//    let group: String
+//    let todaySlots: [TimeSlot]
+//}

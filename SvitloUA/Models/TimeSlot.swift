@@ -9,35 +9,33 @@
 import Foundation
 
 struct TimeSlot: Codable, Identifiable {
-    var id = UUID()
-    let start: Double
-    let end: Double
-    let type: String
+    let start: Int
+    let end: Int
+    let type: OutageType
     
-    enum CodingKeys: String, CodingKey {
-        case start, end, type
+    var id: String {
+        "\(start)-\(end)"
     }
     
-    
-    init(start: Double, end: Double, type: String) {
-        self.start = start
-        self.end = end
-        self.type = type
+    enum OutageType: String, Codable {
+        case definite = "Definite"
+        case possible = "Possible"
+        case notPlanned = "NotPlanned"
+        
+        var displayName: String {
+            switch self {
+            case .definite: return "Відключення"
+            case .possible: return "Можливе відключення"
+            case .notPlanned: return "Світло є"
+            }
+        }
     }
     
     var startTime: String {
-        let hours = Int(start)
-        let minutes = Int((start - Double(hours)) * 60)
-        return String(format: "%02d:%02d", hours, minutes)
+        start.toTimeString()
     }
     
     var endTime: String {
-        let hours = Int(end)
-        let minutes = Int((end - Double(hours)) * 60)
-        return String(format: "%02d:%02d", hours, minutes)
-    }
-    
-    var isOutage: Bool {
-        type.contains("OUTAGE")
+        end.toTimeString()
     }
 }

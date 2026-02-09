@@ -9,19 +9,26 @@ import Foundation
 
 
 enum YasnoEndpoints {
-    static let baseURL = URL(string: "https://yasno.ru/api/v1/")!
-
-    case schedule
+    static let baseURL = URL(string: "https://app.yasno.ua/api/blackout-service/public/")!
     
+    case probableOutages(regionId: Int, dsoId: Int)
     
     var path: String {
         switch self {
-        case .schedule:
-            return "pages/home/schedule-turn-off-electricity"
+        case .probableOutages:
+            return "shutdowns/probable-outages"
         }
     }
     
     var url: URL {
-        return APIConfiguration.shared.environment.baseURL.appendingPathComponentRaw(path)
+        switch self {
+        case .probableOutages(let regionId, let dsoId):
+            var components = URLComponents(url: Self.baseURL.appendingPathComponent(path), resolvingAgainstBaseURL: false)!
+            components.queryItems = [
+                URLQueryItem(name: "regionId", value: String(regionId)),
+                URLQueryItem(name: "dsoId", value: String(dsoId))
+            ]
+            return components.url!
+        }
     }
 }

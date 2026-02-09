@@ -7,9 +7,7 @@
 
 import SwiftUI
 
-//extension Color {
-//    static let appBackground = Color(red: 0.0, green: 1.0, blue: 0.0)
-//}
+
 extension Color {
     static let appBackground = Color(uiColor: UIColor { traitCollection in
         switch traitCollection.userInterfaceStyle {

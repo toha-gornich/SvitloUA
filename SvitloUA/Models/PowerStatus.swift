@@ -7,9 +7,11 @@
 
 
 import Foundation
+import SwiftUI
 
 enum PowerStatus: String, Codable {
     case on = "Є світло"
     case off = "Немає світла"
     case unknown = "Невідомо"
 }
+

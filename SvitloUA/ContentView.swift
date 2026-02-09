@@ -22,17 +22,11 @@ struct ContentView: View {
                 }
                 .tag(0)
             
-            StatisticsView()
-                .tabItem {
-                    Label("Статистика", systemImage: "chart.bar")
-                }
-                .tag(1)
-            
             SettingsView()
                 .tabItem {
                     Label("Налаштування", systemImage: "gear")
                 }
-                .tag(2)
+                .tag(1)
         }
         
     }
