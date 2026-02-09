@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		623AE40C2F3A0ECA007748A7 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 623AE40B2F3A0ECA007748A7 /* Launch Screen.storyboard */; };
 		625B74082F23F36100129962 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 625B74072F23F36100129962 /* WidgetKit.framework */; };
 		625B740A2F23F36100129962 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 625B74092F23F36100129962 /* SwiftUI.framework */; };
 		625B74192F23F36300129962 /* SvitloWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 625B74052F23F36100129962 /* SvitloWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -51,6 +52,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		623AE40B2F3A0ECA007748A7 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		625B73CF2F23F26100129962 /* SvitloUA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SvitloUA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		625B73E42F23F26300129962 /* SvitloUATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SvitloUATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		625B73EE2F23F26300129962 /* SvitloUAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SvitloUAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +63,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		623AE40E2F3A0FC2007748A7 /* Exceptions for "SvitloUA" folder in "SvitloUA" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 625B73CE2F23F26100129962 /* SvitloUA */;
+		};
 		625B741A2F23F36300129962 /* Exceptions for "SvitloWidget" folder in "SvitloWidgetExtension" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -112,6 +121,7 @@
 		625B73D12F23F26100129962 /* SvitloUA */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
+				623AE40E2F3A0FC2007748A7 /* Exceptions for "SvitloUA" folder in "SvitloUA" target */,
 				625B744F2F23FA0D00129962 /* Exceptions for "SvitloUA" folder in "SvitloWidgetExtension" target */,
 			);
 			path = SvitloUA;
@@ -174,6 +184,7 @@
 		625B73C62F23F26100129962 = {
 			isa = PBXGroup;
 			children = (
+				623AE40B2F3A0ECA007748A7 /* Launch Screen.storyboard */,
 				625B74202F23F3BB00129962 /* SvitloWidgetExtension.entitlements */,
 				625B73E72F23F26300129962 /* SvitloUATests */,
 				625B73F12F23F26300129962 /* SvitloUAUITests */,
@@ -352,6 +363,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				623AE40C2F3A0ECA007748A7 /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -562,9 +574,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SvitloUA/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SvitloUA/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -591,9 +604,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SvitloUA/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SvitloUA/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
