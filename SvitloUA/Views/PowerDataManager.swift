@@ -6,6 +6,7 @@
 //
 import Foundation
 import Combine
+import WidgetKit
 
 class PowerDataManager: ObservableObject {
     
@@ -24,14 +25,45 @@ class PowerDataManager: ObservableObject {
     
     private let yasnoManager: YasnoServiceProtocol
     
+    private var cancellables = Set<AnyCancellable>()
+        
     init(yasnoManager: YasnoServiceProtocol = NetworkManager.shared) {
         self.settings = Self.loadSettings()
         self.events = Self.loadEvents()
         self.yasnoManager = yasnoManager
+        
+        setupSettingsObserver()
+        
         Task {
             await refreshSchedule()
         }
     }
+    
+    private func setupSettingsObserver() {
+            $settings
+                .dropFirst()
+                .debounce(for: .milliseconds(300), scheduler: RunLoop.main)
+                .sink { [weak self] _ in
+                    Task {
+                        await self?.refreshSchedule()
+                    }
+                }
+                .store(in: &cancellables)
+        }
+        
+    func saveSettings() {
+        if let data = try? JSONEncoder().encode(settings) {
+            UserDefaults.standard.set(data, forKey: settingsKey)
+            
+            if let groupDefaults = UserDefaults(suiteName: "group.ua.svitlo.app") {
+                groupDefaults.set(data, forKey: settingsKey)
+            }
+        }
+        
+        WidgetCenter.shared.reloadAllTimelines()
+                print("🔄 Widget reload triggered after settings change")
+    }
+            
     
     // MARK: - Loading/Saving
     
@@ -49,16 +81,6 @@ class PowerDataManager: ObservableObject {
             return []
         }
         return events
-    }
-    
-    func saveSettings() {
-        if let data = try? JSONEncoder().encode(settings) {
-            UserDefaults.standard.set(data, forKey: settingsKey)
-            
-            if let groupDefaults = UserDefaults(suiteName: "group.ua.svitlo.app") {
-                groupDefaults.set(data, forKey: settingsKey)
-            }
-        }
     }
     
     func saveEvents() {
@@ -99,7 +121,6 @@ class PowerDataManager: ObservableObject {
         }
         
         do {
-            // Отримуємо повний розклад для групи
             let groupSchedule = try await yasnoManager.fetchSchedule(
                 region: settings.region,
                 group: settings.group
@@ -138,7 +159,6 @@ class PowerDataManager: ObservableObject {
         let minute = calendar.component(.minute, from: now)
         let minutesFromMidnight = hour * 60 + minute
         
-        // Знаходимо поточний слот
         if let currentSlot = slots.first(where: {
             $0.start <= minutesFromMidnight && $0.end > minutesFromMidnight
         }) {
