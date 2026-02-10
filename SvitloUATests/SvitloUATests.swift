@@ -5,13 +5,13 @@
 //  Created by Горніч Антон on 23.01.2026.
 //
 
-import Testing
+import XCTest
 @testable import SvitloUA
 
-struct SvitloUATests {
+class SvitloUATests:XCTestCase {
 
-    @Test func example() async throws {
-        // Write your test here and use APIs like `#expect(...)` to check expected conditions.
+    func example() async throws {
+        
     }
 
 }

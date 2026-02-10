@@ -11,6 +11,7 @@
 		625B74082F23F36100129962 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 625B74072F23F36100129962 /* WidgetKit.framework */; };
 		625B740A2F23F36100129962 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 625B74092F23F36100129962 /* SwiftUI.framework */; };
 		625B74192F23F36300129962 /* SvitloWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 625B74052F23F36100129962 /* SvitloWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		62B5772A2F3BCE5B008F012A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62B577282F3BCDC6008F012A /* XCTest.framework */; platformFilter = ios; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		625B74072F23F36100129962 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		625B74092F23F36100129962 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		625B74202F23F3BB00129962 /* SvitloWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SvitloWidgetExtension.entitlements; sourceTree = "<group>"; };
+		62B577282F3BCDC6008F012A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -158,6 +160,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62B5772A2F3BCE5B008F012A /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +211,7 @@
 		625B74062F23F36100129962 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				62B577282F3BCDC6008F012A /* XCTest.framework */,
 				625B74072F23F36100129962 /* WidgetKit.framework */,
 				625B74092F23F36100129962 /* SwiftUI.framework */,
 			);
