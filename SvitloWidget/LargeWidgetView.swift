@@ -107,13 +107,13 @@ struct LargeWidgetView: View {
             }
         }
         .padding()
-        .background(
+        .containerBackground(for: .widget){
             LinearGradient(
                 gradient: Gradient(colors: [entry.currentStatus.color.opacity(0.15), entry.currentStatus.color.opacity(0.05)]),
                 startPoint: .topLeading,
                 endPoint: .bottomTrailing
             )
-        )
+        }
     }
     
     private func slotColor(for type: TimeSlot.OutageType) -> Color {

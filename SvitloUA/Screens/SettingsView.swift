@@ -9,6 +9,7 @@ import SwiftUI
 
 struct SettingsView: View {
     @EnvironmentObject var dataManager: PowerDataManager
+    @StateObject private var notificationManager = NotificationManager.shared
     @State private var showingHelp = false
     
     let regions = [
@@ -59,9 +60,39 @@ struct SettingsView: View {
                 
                 Section(header: Text("Сповіщення")) {
                     Toggle("Увімкнути сповіщення", isOn: $dataManager.settings.notificationsEnabled)
-                        .onChange(of: dataManager.settings.notificationsEnabled) {
+                        .onChange(of: dataManager.settings.notificationsEnabled) { _, enabled in
+                            if enabled && !notificationManager.isAuthorized {
+                                Task {
+                                    let granted = await notificationManager.requestAuthorization()
+                                    if !granted {
+                                        await MainActor.run {
+                                            dataManager.settings.notificationsEnabled = false
+                                        }
+                                    }
+                                }
+                            }
                             dataManager.saveSettings()
                         }
+                    
+                    // Статус
+                    if(!notificationManager.isAuthorized){
+                    if dataManager.settings.notificationsEnabled {
+                        HStack {
+                                Image(systemName: "xmark.circle.fill")
+                                    .foregroundColor(notificationManager.isAuthorized ? .green : .red)
+                                Text( "Заборонено в системі")
+                                    .foregroundColor(.secondary)
+                            }
+                        }
+                    }
+                    
+                    // Детальні налаштування
+                    NavigationLink {
+                        NotificationSettingsView()
+                    } label: {
+                        Label("Налаштування сповіщень", systemImage: "bell.badge")
+                    }
+                    .disabled(!dataManager.settings.notificationsEnabled)
                 }
                 
                 Section(header: Text("Дані")) {
@@ -86,6 +117,9 @@ struct SettingsView: View {
             .navigationTitle("Налаштування")
             .sheet(isPresented: $showingHelp) {
                 HelpView()
+            }
+            .onAppear {
+                notificationManager.checkAuthorization()
             }
         }
     }

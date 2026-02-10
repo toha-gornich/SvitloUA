@@ -81,9 +81,9 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Assets.xcassets,
+				Common/Manager/NetworkManager.swift,
 				Common/Network/Configuration/APIConfiguration.swift,
 				Common/Network/Configuration/AppEnvironment.swift,
-				Common/Network/Core/NetworkManager.swift,
 				Common/Network/Endpoints/YasnoEndpoints.swift,
 				Common/Network/NetworkError.swift,
 				Common/Network/Protocols/NetworkServiceProtocols.swift,
@@ -111,7 +111,6 @@
 				"UICommon/Extensions/Extensions+TimeSlot.OutageType.swift",
 				"UICommon/Extensions/Extensions+URL.swift",
 				"UICommon/Extensions/Extensions+View.swift",
-				Views/PowerDataManager.swift,
 			);
 			target = 625B74042F23F36100129962 /* SvitloWidgetExtension */;
 		};

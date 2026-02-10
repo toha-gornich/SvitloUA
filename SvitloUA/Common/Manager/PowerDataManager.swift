@@ -26,7 +26,7 @@ class PowerDataManager: ObservableObject {
     private let yasnoManager: YasnoServiceProtocol
     
     private var cancellables = Set<AnyCancellable>()
-        
+    
     init(yasnoManager: YasnoServiceProtocol = NetworkManager.shared) {
         self.settings = Self.loadSettings()
         self.events = Self.loadEvents()
@@ -40,17 +40,17 @@ class PowerDataManager: ObservableObject {
     }
     
     private func setupSettingsObserver() {
-            $settings
-                .dropFirst()
-                .debounce(for: .milliseconds(300), scheduler: RunLoop.main)
-                .sink { [weak self] _ in
-                    Task {
-                        await self?.refreshSchedule()
-                    }
+        $settings
+            .dropFirst()
+            .debounce(for: .milliseconds(300), scheduler: RunLoop.main)
+            .sink { [weak self] _ in
+                Task {
+                    await self?.refreshSchedule()
                 }
-                .store(in: &cancellables)
-        }
-        
+            }
+            .store(in: &cancellables)
+    }
+    
     func saveSettings() {
         if let data = try? JSONEncoder().encode(settings) {
             UserDefaults.standard.set(data, forKey: settingsKey)
@@ -61,9 +61,9 @@ class PowerDataManager: ObservableObject {
         }
         
         WidgetCenter.shared.reloadAllTimelines()
-                print("🔄 Widget reload triggered after settings change")
+        print("🔄 Widget reload triggered after settings change")
     }
-            
+    
     
     // MARK: - Loading/Saving
     
@@ -136,6 +136,9 @@ class PowerDataManager: ObservableObject {
                 print("✅ Schedule updated:")
                 print("   Today: \(groupSchedule.today?.slots.count ?? 0) slots")
                 print("   Tomorrow: \(groupSchedule.tomorrow?.slots.count ?? 0) slots")
+                if let slots = groupSchedule.today?.slots {
+                    NotificationManager.shared.scheduleNotificationsForToday(slots: slots)
+                }
             }
         } catch {
             print("❌ Error fetching schedule: \(error)")

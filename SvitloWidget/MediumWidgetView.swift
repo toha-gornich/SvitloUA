@@ -78,6 +78,9 @@ struct MediumWidgetView: View {
             }
             .frame(maxWidth: .infinity, alignment: .topLeading)
         }
+        .containerBackground(for: .widget) {
+            Color("WidgetBackground")
+        }
         .padding(16)
     }
 }

@@ -48,7 +48,9 @@ struct SmallWidgetView: View {
             }
         }
         .padding()
-        .appBackground()
+        .containerBackground(for: .widget) {
+            Color("WidgetBackground")
+        }
     }
     
 }
