@@ -13,7 +13,6 @@ class PowerDataManager: ObservableObject {
     static let shared = PowerDataManager()
     
     @Published var settings: UserSettings
-    @Published var events: [PowerEvent] = []
     @Published var todaySchedule: DaySchedule?
     @Published var tomorrowSchedule: DaySchedule?
     @Published var isLoading = false
@@ -21,15 +20,12 @@ class PowerDataManager: ObservableObject {
     @Published var lastUpdated: Date?
     
     private let settingsKey = "UserSettings"
-    private let eventsKey = "PowerEvents"
-    
     private let yasnoManager: YasnoServiceProtocol
     
     private var cancellables = Set<AnyCancellable>()
     
     init(yasnoManager: YasnoServiceProtocol = NetworkManager.shared) {
         self.settings = Self.loadSettings()
-        self.events = Self.loadEvents()
         self.yasnoManager = yasnoManager
         
         setupSettingsObserver()
@@ -74,45 +70,8 @@ class PowerDataManager: ObservableObject {
         }
         return settings
     }
-    
-    private static func loadEvents() -> [PowerEvent] {
-        guard let data = UserDefaults.standard.data(forKey: "PowerEvents"),
-              let events = try? JSONDecoder().decode([PowerEvent].self, from: data) else {
-            return []
-        }
-        return events
-    }
-    
-    func saveEvents() {
-        if let data = try? JSONEncoder().encode(events) {
-            UserDefaults.standard.set(data, forKey: eventsKey)
-        }
-    }
-    
-    // MARK: - Events
-    
-    func addEvent(_ event: PowerEvent) {
-        events.insert(event, at: 0)
-        if events.count > 1000 {
-            events = Array(events.prefix(1000))
-        }
-        saveEvents()
-    }
-    
-    func addCustomEvent(timestamp: Date, status: PowerStatus, duration: TimeInterval = 0) {
-        let event = CustomPowerEvent(
-            id: UUID(),
-            timestamp: timestamp,
-            status: status,
-            duration: duration
-        )
-        
-        if let encoded = try? JSONEncoder().encode(event),
-           let decoded = try? JSONDecoder().decode(PowerEvent.self, from: encoded) {
-            addEvent(decoded)
-        }
-    }
-    
+
+
     // MARK: - Schedule
     
     func refreshSchedule() async {
@@ -234,30 +193,6 @@ class PowerDataManager: ObservableObject {
     var scheduleStatus: String {
         return todaySchedule?.status ?? "Unknown"
     }
-    
-    // MARK: - Statistics
-    
-    func getStatistics() -> (today: Int, week: Int, month: Int) {
-        let now = Date()
-        let calendar = Calendar.current
-        
-        let todayEvents = events.filter {
-            calendar.isDateInToday($0.timestamp) && $0.status == .off
-        }
-        
-        let weekAgo = calendar.date(byAdding: .day, value: -7, to: now)!
-        let weekEvents = events.filter {
-            $0.timestamp > weekAgo && $0.status == .off
-        }
-        
-        let monthAgo = calendar.date(byAdding: .day, value: -30, to: now)!
-        let monthEvents = events.filter {
-            $0.timestamp > monthAgo && $0.status == .off
-        }
-        
-        return (todayEvents.count, weekEvents.count, monthEvents.count)
-    }
-    
     // MARK: - Додаткові корисні методи
     
     
@@ -282,12 +217,4 @@ class PowerDataManager: ObservableObject {
     var isPowerOff: Bool {
         return currentStatus == .off
     }
-}
-
-// MARK: - Custom Event
-private struct CustomPowerEvent: Codable {
-    let id: UUID
-    let timestamp: Date
-    let status: PowerStatus
-    let duration: TimeInterval
 }

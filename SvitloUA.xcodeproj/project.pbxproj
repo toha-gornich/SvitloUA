@@ -120,6 +120,8 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Common/Manager/NetworkManager.swift,
+				Common/Manager/NotificationManager.swift,
+				Common/Manager/PowerDataManager.swift,
 				Common/Network/Endpoints/YasnoEndpoints.swift,
 				Common/Network/NetworkError.swift,
 				Common/Network/Protocols/NetworkServiceProtocols.swift,
