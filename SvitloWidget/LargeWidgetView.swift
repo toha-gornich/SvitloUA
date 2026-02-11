@@ -134,3 +134,4 @@ struct LargeWidgetView: View {
         return slot.end <= minutesFromMidnight
     }
 }
+

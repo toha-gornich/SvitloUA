@@ -116,6 +116,38 @@
 			);
 			target = 625B74042F23F36100129962 /* SvitloWidgetExtension */;
 		};
+		62B5772E2F3C89FB008F012A /* Exceptions for "SvitloUA" folder in "SvitloUATests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Common/Manager/NetworkManager.swift,
+				Common/Network/Endpoints/YasnoEndpoints.swift,
+				Common/Network/NetworkError.swift,
+				Common/Network/Protocols/NetworkServiceProtocols.swift,
+				"Common/Network/Services/NetworkManager+Yasno.swift.swift",
+				Models/ChartDataPoint.swift,
+				Models/DayShedule.swift,
+				Models/GroupData.swift,
+				Models/GroupSchedule.swift,
+				Models/PowerEvent.swift,
+				Models/PowerStatus.swift,
+				Models/RegionSchedule.swift,
+				Models/ScheduleData.swift,
+				Models/TimeSlot.swift,
+				Models/UserSettings.swift,
+				Models/YasnoComponent.swift,
+				Models/YasnoScheduleResponse.swift,
+				"UICommon/Extensions/Extensions+Int.swift",
+			);
+			target = 625B73E32F23F26300129962 /* SvitloUATests */;
+		};
+		62B577322F3C8A4A008F012A /* Exceptions for "SvitloWidget" folder in "SvitloUATests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				PowerWidgetEntry.swift,
+				PowerWidgetProvider.swift,
+			);
+			target = 625B73E32F23F26300129962 /* SvitloUATests */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -123,6 +155,7 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				623AE40E2F3A0FC2007748A7 /* Exceptions for "SvitloUA" folder in "SvitloUA" target */,
+				62B5772E2F3C89FB008F012A /* Exceptions for "SvitloUA" folder in "SvitloUATests" target */,
 				625B744F2F23FA0D00129962 /* Exceptions for "SvitloUA" folder in "SvitloWidgetExtension" target */,
 			);
 			path = SvitloUA;
@@ -141,6 +174,7 @@
 		625B740B2F23F36100129962 /* SvitloWidget */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
+				62B577322F3C8A4A008F012A /* Exceptions for "SvitloWidget" folder in "SvitloUATests" target */,
 				625B741A2F23F36300129962 /* Exceptions for "SvitloWidget" folder in "SvitloWidgetExtension" target */,
 			);
 			path = SvitloWidget;

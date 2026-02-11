@@ -60,7 +60,7 @@ struct PowerWidgetProvider: TimelineProvider {
     
     // MARK: - Create Entry (UPDATED for new API)
     
-    private func createEntry() async -> PowerWidgetEntry {
+    func createEntry() async -> PowerWidgetEntry {
         let settings = loadSettings()
         
         print("🔧 Widget: Settings - region: '\(settings.region)', group: '\(settings.group)'")
@@ -108,7 +108,7 @@ struct PowerWidgetProvider: TimelineProvider {
         }
     }
     
-    private func createErrorEntry(settings: UserSettings) -> PowerWidgetEntry {
+    func createErrorEntry(settings: UserSettings) -> PowerWidgetEntry {
         return PowerWidgetEntry(
             date: Date(),
             currentStatus: .unknown,
@@ -150,7 +150,7 @@ struct PowerWidgetProvider: TimelineProvider {
     
     // MARK: - Status Helpers (UPDATED for minutes)
     
-    private func getCurrentStatus(from slots: [TimeSlot]) -> PowerStatus {
+    func getCurrentStatus(from slots: [TimeSlot]) -> PowerStatus {
         let now = Date()
         let calendar = Calendar.current
         let hour = calendar.component(.hour, from: now)
