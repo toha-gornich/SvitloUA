@@ -73,13 +73,13 @@ struct LargeWidgetView: View {
                         ForEach(entry.todaySlots.prefix(8), id: \.start) { slot in
                             HStack(spacing: 8) {
                                 Circle()
-                                    .fill(slotColor(for: slot.type))
+                                    .fill(slot.type.color)
                                     .frame(width: 8, height: 8)
                                 
                                 Text("\(slot.startTime) - \(slot.endTime)")
                                     .font(.subheadline)
                                     .fontWeight(.medium)
-                                    .foregroundColor(slotColor(for: slot.type))
+                                    .foregroundColor(slot.type.color)
                                 
                                 Spacer()
                                 
@@ -116,13 +116,6 @@ struct LargeWidgetView: View {
         }
     }
     
-    private func slotColor(for type: TimeSlot.OutageType) -> Color {
-        switch type {
-        case .definite: return .red
-        case .possible: return .orange
-        case .notPlanned: return .green
-        }
-    }
     
     private func isPastSlot(_ slot: TimeSlot) -> Bool {
         let now = Date()

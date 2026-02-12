@@ -14,12 +14,12 @@ struct CurrentStatusCard: View {
         VStack(spacing: 12) {
             // Main status section
             HStack {
-                Image(systemName: statusIcon)
+                Image(systemName: dataManager.currentStatus.icon)
                     .font(.system(size: 40))
-                    .foregroundColor(statusColor)
+                    .foregroundColor(dataManager.currentStatus.color)
                 
                 VStack(alignment: .leading, spacing: 4) {
-                    Text(statusText)
+                    Text(dataManager.currentStatus.text)
                         .font(.title2)
                         .fontWeight(.bold)
                     
@@ -66,7 +66,7 @@ struct CurrentStatusCard: View {
                             Text(timeUntil)
                                 .font(.title3)
                                 .fontWeight(.bold)
-                                .foregroundColor(statusColor)
+                                .foregroundColor(dataManager.currentStatus.color)
                             Text("залишилось")
                                 .font(.caption2)
                                 .foregroundColor(.secondary)
@@ -107,42 +107,16 @@ struct CurrentStatusCard: View {
             LinearGradient(
                 gradient: Gradient(colors: [
                     Color(.systemBackground),
-                    statusColor.opacity(0.05)
+                    dataManager.currentStatus.color.opacity(0.05)
                 ]),
                 startPoint: .topLeading,
                 endPoint: .bottomTrailing
             )
         )
         .cornerRadius(16)
-        .shadow(color: statusColor.opacity(0.2), radius: 8, x: 0, y: 4)
+        .shadow(color: dataManager.currentStatus.color.opacity(0.2), radius: 8, x: 0, y: 4)
     }
-    
-    // MARK: - Computed Properties
-    
-    private var statusIcon: String {
-        switch dataManager.currentStatus {
-        case .on: return "bolt.fill"
-        case .off: return "bolt.slash.fill"
-        case .unknown: return "questionmark.circle.fill"
-        }
-    }
-    
-    private var statusColor: Color {
-        switch dataManager.currentStatus {
-        case .on: return .green
-        case .off: return .red
-        case .unknown: return .gray
-        }
-    }
-    
-    private var statusText: String {
-        switch dataManager.currentStatus {
-        case .on: return "Світло є"
-        case .off: return "Відключення"
-        case .unknown: return "Невідомо"
-        }
-    }
-    
+
     private func getTimeUntilNextOutage(_ slot: TimeSlot) -> String? {
         let now = Date()
         let calendar = Calendar.current

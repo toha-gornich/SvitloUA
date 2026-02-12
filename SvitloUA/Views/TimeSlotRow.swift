@@ -20,7 +20,7 @@ struct TimeSlotRow: View {
         HStack {
             // Status indicator
             Circle()
-                .fill(slotColor)
+                .fill(slot.type.color)
                 .frame(width: 12, height: 12)
             
             // Time range
@@ -31,58 +31,38 @@ struct TimeSlotRow: View {
             Spacer()
             
             // Status label
-            Text(slotStatusText)
+            Text(slot.type.statusText)
                 .font(.subheadline)
-                .foregroundColor(isPast ? .secondary : slotColor)
+                .foregroundColor(isPast ? .secondary : slot.type.color)
             
             // Optional icon for definite outages
             if slot.type == .definite {
                 Image(systemName: "exclamationmark.circle.fill")
-                    .foregroundColor(slotColor)
+                    .foregroundColor(slot.type.color)
                     .font(.caption)
             }
         }
         .padding(.vertical, 8)
         .padding(.horizontal, 12)
-        .background(slotBackground)
+        .background(slot.type.background(isPast: isPast))
         .cornerRadius(8)
         .opacity(isPast ? 0.5 : 1.0)
     }
     
     // MARK: - Computed Properties
     
-    private var slotColor: Color {
-        switch slot.type {
-        case .definite:
-            return .red
-        case .possible:
-            return .orange
-        case .notPlanned:
-            return .green
-        }
-    }
+
     
-    private var slotStatusText: String {
-        switch slot.type {
-        case .definite:
-            return "Відключення"
-        case .possible:
-            return "Можливе відключення"
-        case .notPlanned:
-            return "Світло є"
-        }
-    }
-    
-    private var slotBackground: Color {
-        switch slot.type {
-        case .definite:
-            return Color.red.opacity(isPast ? 0.05 : 0.1)
-        case .possible:
-            return Color.orange.opacity(isPast ? 0.05 : 0.1)
-        case .notPlanned:
-            return Color.green.opacity(isPast ? 0.05 : 0.1)
-        }
-    }
+//    private var slotBackground: Color {
+//        switch slot.type {
+//        case .definite:
+//            return Color.red.opacity(isPast ? 0.05 : 0.1)
+//        case .possible:
+//            return Color.orange.opacity(isPast ? 0.05 : 0.1)
+//        case .notPlanned:
+//            return Color.green.opacity(isPast ? 0.05 : 0.1)
+//        }
+//    }
 }
 
 // MARK: - Enhanced Version with Duration
@@ -184,12 +164,14 @@ struct TimeSlotDetailRow: View {
         case .notPlanned: return .green
         }
     }
-    
     private var slotStatusText: String {
         switch slot.type {
-        case .definite: return "Відключення"
-        case .possible: return "Можливе відключення"
-        case .notPlanned: return "Світло є"
+        case .definite:
+            return NSLocalizedString("Відключення", comment: "Power outage status")
+        case .possible:
+            return NSLocalizedString("Можливе відключення", comment: "Possible power outage")
+        case .notPlanned:
+            return NSLocalizedString("Світло є", comment: "Power is on")
         }
     }
     

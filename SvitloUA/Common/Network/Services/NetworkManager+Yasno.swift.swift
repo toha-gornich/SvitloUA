@@ -14,7 +14,6 @@ extension NetworkManager: YasnoServiceProtocol {
         let (regionId, dsoId) = getRegionParameters(for: region)
         let url = YasnoEndpoints.probableOutages(regionId: regionId, dsoId: dsoId).url
         
-        print("🔗 URL: \(url.absoluteString)")
         
         let (data, response) = try await URLSession.shared.data(from: url)
         
@@ -30,7 +29,6 @@ extension NetworkManager: YasnoServiceProtocol {
         
         // Debug: print raw JSON
         if let jsonString = String(data: data, encoding: .utf8) {
-            print("📄 Response preview: \(String(jsonString.prefix(500)))")
         }
         
         let decoder = JSONDecoder()

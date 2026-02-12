@@ -24,9 +24,12 @@ struct TimeSlot: Codable, Identifiable {
         
         var displayName: String {
             switch self {
-            case .definite: return "Відключення"
-            case .possible: return "Можливе відключення"
-            case .notPlanned: return "Світло є"
+            case .definite:
+                return NSLocalizedString("Відключення", comment: "Power outage")
+            case .possible:
+                return NSLocalizedString("Можливе відключення", comment: "Possible power outage")
+            case .notPlanned:
+                return NSLocalizedString("Світло є", comment: "Power is on")
             }
         }
     }

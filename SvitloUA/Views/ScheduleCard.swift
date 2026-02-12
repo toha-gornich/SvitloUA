@@ -113,15 +113,15 @@ struct ScheduleCard: View {
             return .gray
         }
     }
-    
+
     private var statusText: String {
         switch scheduleStatus {
         case "ScheduleApplies":
-            return "Підтверджено"
+            return NSLocalizedString("Підтверджено", comment: "Schedule is confirmed")
         case "WaitingForSchedule":
-            return "Очікується"
+            return NSLocalizedString("Очікується", comment: "Waiting for schedule")
         default:
-            return "Невідомо"
+            return NSLocalizedString("Невідомо", comment: "Unknown schedule status")
         }
     }
     

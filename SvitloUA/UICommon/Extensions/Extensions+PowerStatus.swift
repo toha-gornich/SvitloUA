@@ -26,9 +26,12 @@ extension PowerStatus {
     
     var text: String {
         switch self {
-        case .on: return "Світло є"
-        case .off: return "Відключення"
-        case .unknown: return "Невідомо"
+        case .on:
+            return NSLocalizedString("Світло є", comment: "Power is on")
+        case .off:
+            return NSLocalizedString("Відключення", comment: "Power outage")
+        case .unknown:
+            return NSLocalizedString("Невідомо", comment: "Unknown power status")
         }
     }
 }

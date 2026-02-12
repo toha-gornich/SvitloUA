@@ -12,6 +12,8 @@
 		625B740A2F23F36100129962 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 625B74092F23F36100129962 /* SwiftUI.framework */; };
 		625B74192F23F36300129962 /* SvitloWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 625B74052F23F36100129962 /* SvitloWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		62B5772A2F3BCE5B008F012A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62B577282F3BCDC6008F012A /* XCTest.framework */; platformFilter = ios; };
+		62DEBF882F3DF186008E448E /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 62DEBF872F3DF186008E448E /* Localizable.xcstrings */; };
+		62DEBF892F3DF20C008E448E /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 62DEBF872F3DF186008E448E /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,7 @@
 		625B74092F23F36100129962 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		625B74202F23F3BB00129962 /* SvitloWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SvitloWidgetExtension.entitlements; sourceTree = "<group>"; };
 		62B577282F3BCDC6008F012A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		62DEBF872F3DF186008E448E /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -90,7 +93,6 @@
 				Common/Network/NetworkError.swift,
 				Common/Network/Protocols/NetworkServiceProtocols.swift,
 				"Common/Network/Services/NetworkManager+Yasno.swift.swift",
-				Models/CustomPowerEvent.swift,
 				Models/DayShedule.swift,
 				Models/GroupData.swift,
 				Models/GroupSchedule.swift,
@@ -222,6 +224,7 @@
 		625B73C62F23F26100129962 = {
 			isa = PBXGroup;
 			children = (
+				62DEBF872F3DF186008E448E /* Localizable.xcstrings */,
 				623AE40B2F3A0ECA007748A7 /* Launch Screen.storyboard */,
 				625B74202F23F3BB00129962 /* SvitloWidgetExtension.entitlements */,
 				625B73E72F23F26300129962 /* SvitloUATests */,
@@ -381,6 +384,7 @@
 			knownRegions = (
 				en,
 				Base,
+				uk,
 			);
 			mainGroup = 625B73C62F23F26100129962;
 			minimizedProjectReferenceProxies = 1;
@@ -402,6 +406,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62DEBF882F3DF186008E448E /* Localizable.xcstrings in Resources */,
 				623AE40C2F3A0ECA007748A7 /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +429,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62DEBF892F3DF20C008E448E /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,6 +546,7 @@
 				SDKROOT = iphoneos;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -598,6 +605,7 @@
 				SDKROOT = iphoneos;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

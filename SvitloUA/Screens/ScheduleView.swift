@@ -18,16 +18,16 @@ struct ScheduleView: View {
                 
                 // Today's schedule
                 ScheduleCard(
-                    title: "Графік сьогодні",
+                    title: NSLocalizedString("Графік сьогодні", comment: "Today's schedule"),
                     slots: dataManager.allTodaySlots,
                     scheduleStatus: dataManager.todaySchedule?.status,
                     isToday: true,
                     showPastSlots: false
                 )
-                
+
                 // Tomorrow's schedule
                 ScheduleCard(
-                    title: "Графік завтра",
+                    title: NSLocalizedString("Графік завтра", comment: "Tomorrow's schedule"),
                     slots: dataManager.allTomorrowSlots,
                     scheduleStatus: dataManager.tomorrowSchedule?.status,
                     isToday: false,
