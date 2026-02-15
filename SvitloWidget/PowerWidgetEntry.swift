@@ -63,9 +63,9 @@ struct PowerWidgetEntry: TimelineEntry {
         let minutes = totalMinutes % 60
         
         if minutes == 0 {
-            return "\(hours) год"
+            return String(format: NSLocalizedString("hours_format", comment: "Hours format"), hours)
         } else {
-            return "\(hours) год \(minutes) хв"
+            return String(format: NSLocalizedString("hours_minutes_format", comment: "Hours and minutes format"), hours, minutes)
         }
     }
     

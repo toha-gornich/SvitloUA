@@ -206,11 +206,11 @@ struct ScheduleCard: View {
         let minutes = totalMinutes % 60
         
         if hours > 0 && minutes > 0 {
-            return "\(hours)год \(minutes)хв"
+            return String(format: NSLocalizedString("hours_minutes_format", comment: "Hours and minutes format"), hours, minutes)
         } else if hours > 0 {
-            return "\(hours)год"
+            return String(format: NSLocalizedString("hours_format", comment: "Hours format"), hours)
         } else {
-            return "\(minutes)хв"
+            return String(format: NSLocalizedString("minutes_format", comment: "Minutes format"), minutes)
         }
     }
     

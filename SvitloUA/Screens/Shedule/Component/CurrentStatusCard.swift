@@ -132,9 +132,9 @@ struct CurrentStatusCard: View {
         let mins = minutesUntil % 60
         
         if hours > 0 {
-            return "\(hours)год \(mins)хв"
+            return String(format: NSLocalizedString("hours_minutes_format", comment: "Hours and minutes format"), hours, mins)
         } else {
-            return "\(mins)хв"
+            return String(format: NSLocalizedString("minutes_format", comment: "Minutes format"), mins)
         }
     }
 }

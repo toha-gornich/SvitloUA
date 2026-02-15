@@ -99,7 +99,7 @@ extension NetworkManager: YasnoServiceProtocol {
     
     private func getRegionParameters(for region: String) -> (regionId: Int, dsoId: Int) {
         switch region.lowercased() {
-        case "kyiv", "kiev", "київ":
+        case "Kyiv", "Kiev", "Київ":
             return (25, 902)
         default:
             return (25, 902)

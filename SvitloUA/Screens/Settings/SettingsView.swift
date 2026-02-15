@@ -12,8 +12,8 @@ struct SettingsView: View {
     @StateObject private var notificationManager = NotificationManager.shared
     @State private var showingHelp = false
     
-    let regions = [
-        ("kiev", "Київ"),
+    let regions: [(code: String, name: String)] = [
+        ("kiev", NSLocalizedString("city_kyiv", comment: "Kiev city name")),
     ]
     
     let groups = ["1.1", "1.2", "2.1", "2.2", "3.1", "3.2", "4.1", "4.2", "5.1", "5.2", "6.1", "6.2"]
@@ -22,9 +22,9 @@ struct SettingsView: View {
         NavigationView {
             Form {
                 Section(header: Text("Локація")) {
-                    Picker("Місто", selection: $dataManager.settings.region) {
-                        ForEach(regions, id: \.0) { region in
-                            Text(region.1).tag(region.0)
+                    Picker("City", selection: $dataManager.settings.region) {
+                        ForEach(regions, id: \.code) { region in
+                            Text(region.name).tag(region.code)
                         }
                     }
                     .onChange(of: dataManager.settings.region) {
