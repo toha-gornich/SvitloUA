@@ -24,10 +24,6 @@ struct GroupData: Codable {
 
 
 
-struct RegionData: Codable {
-    let dsos: [String: DSOData]
-}
 
-struct DSOData: Codable {
-    let groups: [String: GroupData]
-}
+
+

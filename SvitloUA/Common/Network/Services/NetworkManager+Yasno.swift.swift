@@ -28,7 +28,7 @@ extension NetworkManager: YasnoServiceProtocol {
         }
         
         // Debug: print raw JSON
-        if let jsonString = String(data: data, encoding: .utf8) {
+        if String(data: data, encoding: .utf8) != nil {
         }
         
         let decoder = JSONDecoder()

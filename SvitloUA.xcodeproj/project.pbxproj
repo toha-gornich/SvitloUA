@@ -11,6 +11,7 @@
 		625B74082F23F36100129962 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 625B74072F23F36100129962 /* WidgetKit.framework */; };
 		625B740A2F23F36100129962 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 625B74092F23F36100129962 /* SwiftUI.framework */; };
 		625B74192F23F36300129962 /* SvitloWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 625B74052F23F36100129962 /* SvitloWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		625BAEE52F41B2AB0006E7CD /* PrivacyInfo. xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 625BAEE42F41B2AB0006E7CD /* PrivacyInfo. xcprivacy */; };
 		62B5772A2F3BCE5B008F012A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62B577282F3BCDC6008F012A /* XCTest.framework */; platformFilter = ios; };
 		62DEBF882F3DF186008E448E /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 62DEBF872F3DF186008E448E /* Localizable.xcstrings */; };
 		62DEBF892F3DF20C008E448E /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 62DEBF872F3DF186008E448E /* Localizable.xcstrings */; };
@@ -63,6 +64,7 @@
 		625B74072F23F36100129962 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		625B74092F23F36100129962 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		625B74202F23F3BB00129962 /* SvitloWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SvitloWidgetExtension.entitlements; sourceTree = "<group>"; };
+		625BAEE42F41B2AB0006E7CD /* PrivacyInfo. xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrivacyInfo. xcprivacy"; sourceTree = "<group>"; };
 		62B577282F3BCDC6008F012A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		62DEBF872F3DF186008E448E /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,22 +95,23 @@
 				Common/Network/NetworkError.swift,
 				Common/Network/Protocols/NetworkServiceProtocols.swift,
 				"Common/Network/Services/NetworkManager+Yasno.swift.swift",
-				Models/DayShedule.swift,
-				Models/GroupData.swift,
-				Models/GroupSchedule.swift,
-				Models/PowerEvent.swift,
-				Models/PowerStatus.swift,
-				Models/RegionSchedule.swift,
-				Models/ScheduleData.swift,
-				Models/TimeSlot.swift,
-				Models/UserSettings.swift,
-				Models/YasnoComponent.swift,
-				Models/YasnoScheduleResponse.swift,
-				Screens/GroupHelpView.swift,
-				Screens/HelpSection.swift,
-				Screens/HelpStepCard.swift,
-				Screens/HelpView.swift,
-				Screens/InfoBox.swift,
+				Models/API/DayShedule.swift,
+				Models/API/DSOData.swift,
+				Models/API/GroupData.swift,
+				Models/API/GroupSchedule.swift,
+				Models/API/RegionData.swift,
+				Models/API/RegionSchedule.swift,
+				Models/API/ScheduleData.swift,
+				Models/API/YasnoScheduleResponse.swift,
+				Models/Domain/PowerStatus.swift,
+				Models/Domain/TimeSlot.swift,
+				Models/Domain/UserSettings.swift,
+				Models/Ui/YasnoComponent.swift,
+				Screens/Help/Components/HelpSection.swift,
+				Screens/Help/Components/HelpStepCard.swift,
+				Screens/Help/Components/HelpView.swift,
+				Screens/Help/Components/InfoBox.swift,
+				Screens/Help/GroupHelpView.swift,
 				"UICommon/Extensions/Extensions+Color.swift",
 				"UICommon/Extensions/Extensions+Int.swift",
 				"UICommon/Extensions/Extensions+PowerStatus.swift",
@@ -128,18 +131,18 @@
 				Common/Network/NetworkError.swift,
 				Common/Network/Protocols/NetworkServiceProtocols.swift,
 				"Common/Network/Services/NetworkManager+Yasno.swift.swift",
-				Models/ChartDataPoint.swift,
-				Models/DayShedule.swift,
-				Models/GroupData.swift,
-				Models/GroupSchedule.swift,
-				Models/PowerEvent.swift,
-				Models/PowerStatus.swift,
-				Models/RegionSchedule.swift,
-				Models/ScheduleData.swift,
-				Models/TimeSlot.swift,
-				Models/UserSettings.swift,
-				Models/YasnoComponent.swift,
-				Models/YasnoScheduleResponse.swift,
+				Models/API/DayShedule.swift,
+				Models/API/DSOData.swift,
+				Models/API/GroupData.swift,
+				Models/API/GroupSchedule.swift,
+				Models/API/RegionData.swift,
+				Models/API/RegionSchedule.swift,
+				Models/API/ScheduleData.swift,
+				Models/API/YasnoScheduleResponse.swift,
+				Models/Domain/PowerStatus.swift,
+				Models/Domain/TimeSlot.swift,
+				Models/Domain/UserSettings.swift,
+				Models/Ui/YasnoComponent.swift,
 				"UICommon/Extensions/Extensions+Int.swift",
 			);
 			target = 625B73E32F23F26300129962 /* SvitloUATests */;
@@ -224,6 +227,7 @@
 		625B73C62F23F26100129962 = {
 			isa = PBXGroup;
 			children = (
+				625BAEE42F41B2AB0006E7CD /* PrivacyInfo. xcprivacy */,
 				62DEBF872F3DF186008E448E /* Localizable.xcstrings */,
 				623AE40B2F3A0ECA007748A7 /* Launch Screen.storyboard */,
 				625B74202F23F3BB00129962 /* SvitloWidgetExtension.entitlements */,
@@ -407,6 +411,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62DEBF882F3DF186008E448E /* Localizable.xcstrings in Resources */,
+				625BAEE52F41B2AB0006E7CD /* PrivacyInfo. xcprivacy in Resources */,
 				623AE40C2F3A0ECA007748A7 /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

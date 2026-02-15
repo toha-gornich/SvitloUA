@@ -19,14 +19,16 @@ struct PowerWidgetProvider: TimelineProvider {
     
     func placeholder(in context: Context) -> PowerWidgetEntry {
         print("📱 Widget: Placeholder called")
+        let settings = loadSettings()
+        
         return PowerWidgetEntry(
             date: Date(),
             currentStatus: .on,
-            nextOutage: "14:00",
-            region: "kyiv",
-            group: "4.2",
+            nextOutage: nil,
+            region: settings.region,
+            group: settings.group,
             todaySlots: sampleSlots(),
-            scheduleStatus: "ScheduleApplies"
+            scheduleStatus: "Завантаження..."
         )
     }
     
@@ -58,7 +60,7 @@ struct PowerWidgetProvider: TimelineProvider {
         }
     }
     
-    // MARK: - Create Entry (UPDATED for new API)
+    // MARK: - Create Entry
     
     func createEntry() async -> PowerWidgetEntry {
         let settings = loadSettings()
@@ -148,7 +150,7 @@ struct PowerWidgetProvider: TimelineProvider {
         return .default
     }
     
-    // MARK: - Status Helpers (UPDATED for minutes)
+    // MARK: - Status Helpers
     
     func getCurrentStatus(from slots: [TimeSlot]) -> PowerStatus {
         let now = Date()

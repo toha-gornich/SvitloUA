@@ -1,0 +1,40 @@
+//
+//  Untitled.swift
+//  SvitloUA
+//
+//  Created by Горніч Антон on 15.02.2026.
+//
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- APIs with required reasons -->
+    <key>NSPrivacyAccessedAPITypes</key>
+    <array>
+        <dict>
+            <key>NSPrivacyAccessedAPIType</key>
+            <string>NSPrivacyAccessedAPICategoryUserDefaults</string>
+            <key>NSPrivacyAccessedAPITypeReasons</key>
+            <array>
+                <!-- CA92.1 - Storing app settings (city, queue) -->
+                <string>CA92.1</string>
+                <!-- 1C8F.1 - Data sharing between the app and the widget -->
+                <string>1C8F.1</string>
+            </array>
+        </dict>
+    </array>
+    
+    <!-- Is tracking used - none -->
+    <key>NSPrivacyTracking</key>
+    <false/>
+    
+    <!-- Tracking domains - none -->
+    <key>NSPrivacyTrackingDomains</key>
+    <array/>
+    
+    <!-- Collected data types - none -->
+    <key>NSPrivacyCollectedDataTypes</key>
+    <array/>
+</dict>
+</plist>
