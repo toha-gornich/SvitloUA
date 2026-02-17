@@ -186,19 +186,6 @@ Groups: `1.1`, `1.2`, `2.1`, `2.2`, `3.1`, `3.2`, `4.1`, `4.2`, `5.1`, `5.2`, `6
 
 ---
 
-## 🔧 Pre-Submission Checklist
-
-- [x] `PrivacyInfo.xcprivacy` added for main app
-- [x] `PrivacyInfo.xcprivacy` added for widget extension
-- [x] `ITSAppUsesNonExemptEncryption = false` in Info.plist
-- [x] `CFBundleDisplayName` set in Info.plist
-- [x] App Group configured for widget data sharing
-- [x] Privacy Policy published
-- [x] Screenshots prepared (1284 × 2778 px)
-- [x] Greenlit by [greenlight](https://github.com/RevylAI/greenlight) ✅
-
----
-
 ## 📄 License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
