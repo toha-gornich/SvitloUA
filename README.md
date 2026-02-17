@@ -166,10 +166,8 @@ Select your device or simulator and press **Cmd + R**
 
 | Code | City |
 |------|------|
-| `kiev` | Kyiv / Київ |
-| `kharkiv` | Kharkiv / Харків |
-| `odesa` | Odesa / Одеса |
-| `dnipro` | Dnipro / Дніпро |
+| `kyiv` | Kyiv / Київ |
+
 
 ### Outage Groups
 
