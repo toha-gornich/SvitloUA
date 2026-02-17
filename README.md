@@ -226,7 +226,7 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 **Anton Hornich**
 
-- Email: toha.gornich@gmail.com
+- Email: hornihanton@@gmail.com
 - GitHub: [@toha-gornich](https://github.com/toha-gornich)
 
 ---
