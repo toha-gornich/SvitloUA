@@ -33,9 +33,14 @@
 
 | Schedule | Widget | Settings |
 |----------|--------|----------|
-| Today & Tomorrow schedule | Home Screen widget | City & Group picker |
+|<img width="1284" height="2778" alt="Simulator Screenshot - iPhone 13 Pro Max - 2026-02-17 at 12 29 33" src="https://github.com/user-attachments/assets/b855af2a-4ed5-4d78-b6fe-88cf73635c04" />
+
+ | <img width="1284" height="2778" alt="Simulator Screenshot - iPhone 13 Pro Max - 2026-02-17 at 12 29 36" src="https://github.com/user-attachments/assets/dec28c19-b40e-4d60-926c-de502f42b6a7" />
+| <img width="1284" height="2778" alt="Simulator Screenshot - iPhone 13 Pro Max - 2026-02-17 at 12 29 40" src="https://github.com/user-attachments/assets/eebb6408-09f3-4f0b-8693-3098bcdbd4b6" />
+ |
 
 ---
+
 
 ## 🏗️ Architecture
 
