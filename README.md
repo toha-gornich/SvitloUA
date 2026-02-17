@@ -40,49 +40,78 @@
 
 ## 🏗️ Architecture
 
+## 🏗️ Architecture
+
 ```
 SvitloUA/
 ├── Common/
 │   ├── Manager/
-│   │   ├── NetworkManager.swift       # API calls to YASNO
-│   │   ├── NotificationManager.swift  # Push notifications
-│   │   └── PowerDataManager.swift     # Core data manager
+│   │   ├── NetworkManager.swift
+│   │   ├── NotificationManager.swift
+│   │   └── PowerDataManager.swift
 │   ├── Models/
-│   │   ├── API/                       # API response models
-│   │   │   ├── YasnoScheduleResponse.swift
-│   │   │   ├── GroupSchedule.swift
+│   │   ├── API/
 │   │   │   ├── DaySchedule.swift
+│   │   │   ├── DSOData.swift
+│   │   │   ├── GroupData.swift
+│   │   │   ├── GroupSchedule.swift
+│   │   │   ├── RegionData.swift
 │   │   │   ├── RegionSchedule.swift
-│   │   │   └── ScheduleData.swift
-│   │   ├── Domain/                    # Business logic models
-│   │   │   ├── TimeSlot.swift
-│   │   │   ├── PowerEvent.swift
+│   │   │   ├── ScheduleData.swift
+│   │   │   └── YasnoScheduleResponse.swift
+│   │   ├── Domain/
 │   │   │   ├── PowerStatus.swift
+│   │   │   ├── TimeSlot.swift
 │   │   │   └── UserSettings.swift
-│   │   └── UI/                        # UI models
-│   │       ├── ChartDataPoint.swift
+│   │   └── UI/
 │   │       └── YasnoComponent.swift
-│   ├── Network/                       # Networking layer
-│   └── UICommon/
-│       └── Extensions/                # Swift extensions
+│   └── Network/
+│       ├── Configuration/
+│       │   ├── APIConfiguration.swift
+│       │   └── AppEnvironment.swift
+│       ├── Endpoints/
+│       │   └── YasnoEndpoints.swift
+│       ├── Protocols/
+│       │   └── NetworkServiceProtocols.swift
+│       ├── Services/
+│       │   └── NetworkManager+Yasno.swift
+│       └── NetworkError.swift
 │
 ├── Screens/
-│   ├── Schedule/                      # Main schedule screen
-│   ├── Settings/                      # City & group settings
-│   ├── Help/                          # How to find your group
-│   └── Notifications/                 # Notification settings
+│   ├── Help/
+│   │   ├── Components/
+│   │   │   ├── HelpSection.swift
+│   │   │   ├── HelpStepCard.swift
+│   │   │   ├── HelpView.swift
+│   │   │   └── InfoBox.swift
+│   │   └── GroupHelpView.swift
+│   ├── Notifications/
+│   │   └── NotificationSettingsView.swift
+│   ├── Settings/
+│   │   └── SettingsView.swift
+│   └── Schedule/
+│       ├── Component/
+│       │   ├── CompactScheduleCard.swift
+│       │   ├── CurrentStatusCard.swift
+│       │   ├── EmptyScheduleCard.swift
+│       │   ├── ScheduleCard.swift
+│       │   └── TimeSlotRow.swift
+│       └── ScheduleView.swift
 │
-└── Views/                             # Reusable UI components
-    ├── CompactScheduleCard.swift
-    ├── CurrentStatusCard.swift
-    ├── ScheduleCard.swift
-    └── TimeSlotRow.swift
+└── UICommon/
+    └── Extensions/
+        ├── Extensions+Color.swift
+        ├── Extensions+Int.swift
+        ├── Extensions+PowerStatus.swift
+        ├── Extensions+TimeSlot.OutageType.swift
+        ├── Extensions+URL.swift
+        └── Extensions+View.swift
 
-SvitloWidget/                          # Widget Extension
-├── PowerWidget.swift                  # Widget entry point
-├── PowerWidgetProvider.swift          # Timeline provider
-├── PowerWidgetEntry.swift             # Widget data model
-├── PowerWidgetView.swift              # Widget UI
+SvitloWidget/
+├── PowerWidget.swift
+├── PowerWidgetEntry.swift
+├── PowerWidgetProvider.swift
+├── PowerWidgetView.swift
 ├── LargeWidgetView.swift
 ├── MediumWidgetView.swift
 └── SmallWidgetView.swift
