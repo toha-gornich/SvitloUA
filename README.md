@@ -46,22 +46,6 @@ SvitloUA/
 │   │   ├── NetworkManager.swift
 │   │   ├── NotificationManager.swift
 │   │   └── PowerDataManager.swift
-│   ├── Models/
-│   │   ├── API/
-│   │   │   ├── DaySchedule.swift
-│   │   │   ├── DSOData.swift
-│   │   │   ├── GroupData.swift
-│   │   │   ├── GroupSchedule.swift
-│   │   │   ├── RegionData.swift
-│   │   │   ├── RegionSchedule.swift
-│   │   │   ├── ScheduleData.swift
-│   │   │   └── YasnoScheduleResponse.swift
-│   │   ├── Domain/
-│   │   │   ├── PowerStatus.swift
-│   │   │   ├── TimeSlot.swift
-│   │   │   └── UserSettings.swift
-│   │   └── UI/
-│   │       └── YasnoComponent.swift
 │   └── Network/
 │       ├── Configuration/
 │       │   ├── APIConfiguration.swift
@@ -74,6 +58,23 @@ SvitloUA/
 │       │   └── NetworkManager+Yasno.swift
 │       └── NetworkError.swift
 │
+├── Models/
+│   ├── API/
+│   │   ├── DaySchedule.swift
+│   │   ├── DSOData.swift
+│   │   ├── GroupData.swift
+│   │   ├── GroupSchedule.swift
+│   │   ├── RegionData.swift
+│   │   ├── RegionSchedule.swift
+│   │   ├── ScheduleData.swift
+│   │   └── YasnoScheduleResponse.swift
+│   ├── Domain/
+│   │   ├── PowerStatus.swift
+│   │   ├── TimeSlot.swift
+│   │   └── UserSettings.swift
+│   └── UI/
+│       └── YasnoComponent.swift
+│ 
 ├── Screens/
 │   ├── Help/
 │   │   ├── Components/
