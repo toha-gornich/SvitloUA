@@ -37,9 +37,6 @@
 
 ---
 
-
-## 🏗️ Architecture
-
 ## 🏗️ Architecture
 
 ```
