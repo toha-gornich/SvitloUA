@@ -108,13 +108,16 @@ SvitloUA/
         └── Extensions+View.swift
 
 SvitloWidget/
+├── View/
+│   ├── LargeWidgetView.swift
+│   ├── MediumWidgetView.swift
+│   └── SmallWidgetView.swift
 ├── PowerWidget.swift
 ├── PowerWidgetEntry.swift
+├── PowerWidgetPreviews.swift
 ├── PowerWidgetProvider.swift
 ├── PowerWidgetView.swift
-├── LargeWidgetView.swift
-├── MediumWidgetView.swift
-└── SmallWidgetView.swift
+└── SvitloWidget.swift
 ```
 
 ---
